@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=luke1550" alt="luke1550" /></a> </p>
 
-- 🔭 I’m currently working on [Snake](https://github.com/Luke1550/Snake-Game)
+- 🔭 I’m currently working on [CCCBridge](https://github.com/Luke1550/cccbridge)
 
 - 🌱 I’m currently learning **php, react and electron**
 
