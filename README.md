@@ -1,15 +1,15 @@
 <h1 align="center">Hi 👋, I'm Luke</h1>
 <h3 align="center">Project Ideas --> luke@megaluke.de</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=luke1550&label=Profile%20views&color=7289da&style=flat" alt="luke1550" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=luke1550&label=Profile%20views&color=7289da&style=flat" alt="luke1505" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=luke1550" alt="luke1550" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=luke1505" alt="luke1505" /></a> </p>
 
-- 🔭 I’m currently working on [CCCBridge](https://github.com/Luke1550/cccbridge)
+- 🔭 I’m currently working on [CCCBridge](https://github.com/Luke1505/cccbridge)
 
 - 🌱 I’m currently learning **php, react and electron**
 
-- 👨‍💻 All of my projects are available at [https://github.com/Luke1550](https://github.com/Luke1550)
+- 👨‍💻 All of my projects are available at [https://github.com/Luke1550](https://github.com/Luke1505)
 
 - 💬 Ask me about **js and Java**
 
