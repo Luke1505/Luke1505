@@ -1,0 +1,33 @@
+name: generate typing svg
+
+on:
+  schedule:
+    - cron: '17 3 * * *'   # 3:17am UTC daily, offset to avoid GitHub's busy hour
+  workflow_dispatch:        # run manually from the Actions tab too
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: generate svg
+        run: node scripts/generate-typing-svg.js
+
+      - name: deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          commit_message: 'regen typing.svg'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

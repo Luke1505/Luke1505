@@ -1,6 +1,8 @@
-<h1 align="center">hey, I'm Luke 👋</h1>
+<h1 align="center">hey, i'm Luke 👋</h1>
 
-<p align="center">maker · engineer · Software Developer · whatever it takes to ship</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Luke1505/Luke1505/output/typing.svg" alt="Typing SVG" />
+</p>
 
 <p align="center">
   <a href="mailto:luke@megaluke.de">luke@megaluke.de</a> &nbsp;·&nbsp; NRW, Germany
@@ -8,21 +10,40 @@
 
 ---
 
-- 🔧 currently deep in ESP32 firmware — building a wearable e-ink transit display with its own backend and web portal
-- 🛠️ I like projects that touch hardware *and* software — if there's a PCB, a microcontroller, and a server involved I'm probably having a good time
-- 🌱 getting better at C++ and PlatformIO every week
-- 👾 also built things in TypeScript, Java, Python, Flutter — whatever the project needs
-- 💬 hit me up about embedded stuff, maker projects, or if you have a wild idea: **luke@megaluke.de**
-- ⚡ I once built a pool control system because my dad wanted to turn on the hot tub from his phone
+I build things. Usually because they don't exist yet, or because they exist but aren't fun enough.
+
+Right now I'm deep in ESP32 firmware — a wearable e-ink keychain showing live transit departures, with OTA updates, deep-sleep wake stubs, and a full web portal behind it. I don't know how to stop adding features.
+
+I used to volunteer at gaming fairs and got tired of watching crews run on spreadsheets, so I built [Crewvolution](https://crewvolution.com). Real product, real people use it.
+
+Next thing I want to build: an open-source modular robot arm. Still on my desk in pieces.
 
 ---
 
-### a few things I've built
+### things i've built
 
-| project | what it is |
+| | |
 |---|---|
-| [DepartureMonitor](https://github.com/Luke1505/DepartureMonitor) | ESP32 + e-ink keychain showing live transit departures |
+| [DepartureMonitor](https://github.com/Luke1505/DepartureMonitor) | ESP32 e-ink keychain — live transit, OTA, full web portal |
+| [Crewvolution](https://crewvolution.com) | crew scheduling for events — born at a gaming fair |
+| [MultClient](https://github.com/Luke1505/MultClient) | silent Windows installer with `mult://` protocol and tray UI |
 | [MCED](https://github.com/MinecraftEvolve/MCED) | desktop config editor for Minecraft mod packs |
-| [CC:Bridge](https://github.com/Luke1505/cccbridge) | mod that bridges ComputerCraft and Create |
-| Crewvolution | crew management platform for live events |
-| PoolDevice | remote pool control via Raspberry Pi + WebSocket |
+| PoolDevice | Pi pool controller — my dad wanted the hot tub on his phone |
+
+---
+
+### tools i actually use
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,arduino,python,ts,react,nodejs,flutter,docker,git,vscode&theme=dark" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luke1505&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Luke1505/Luke1505/output/github-contribution-grid-snake-dark.svg" />
+</p>
