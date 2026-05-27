@@ -1,6 +1,6 @@
 <h1 align="center">hey, I'm Luke 👋</h1>
 
-<p align="center">maker · firmware · whatever it takes to ship</p>
+<p align="center">maker · engineer · Software Developer · whatever it takes to ship</p>
 
 <p align="center">
   <a href="mailto:luke@megaluke.de">luke@megaluke.de</a> &nbsp;·&nbsp; NRW, Germany
