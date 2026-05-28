@@ -41,9 +41,9 @@ Next thing I want to build: an open-source modular robot arm. Still on my desk i
 ---
 
 <p align="center">
-  <img src="./profile/stats.svg" />
+  <img src="https://raw.githubusercontent.com/Luke1505/Luke1505/main/profile/stats.svg" />
   &nbsp;
-  <img src="./profile/top-langs.svg" />
+  <img src="https://raw.githubusercontent.com/Luke1505/Luke1505/main/profile/top-langs.svg" />
 </p>
 
 <p align="center">
