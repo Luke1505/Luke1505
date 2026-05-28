@@ -47,5 +47,9 @@ Next thing I want to build: an open-source modular robot arm. Still on my desk i
 </p>
 
 <p align="center">
+  <img src="https://streak-stats.demolab.com?user=Luke1505&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/Luke1505/Luke1505/output/github-contribution-grid-snake-dark.svg" />
 </p>
