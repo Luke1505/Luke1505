@@ -41,6 +41,8 @@ Next thing I want to build: an open-source modular robot arm. Still on my desk i
 ---
 
 <p align="center">
+  <img src="./profile/stats.svg" />
+  &nbsp;
   <img src="./profile/top-langs.svg" />
 </p>
 
