@@ -21,11 +21,11 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd  # v3.1.0
+      - uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4  # v5.0.0
         with:
           target_branch: output
           build_dir: dist
-          keep_history: false
+          keep_history: true
           commit_message: 'regen snake'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
