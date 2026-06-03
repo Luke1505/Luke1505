@@ -109,7 +109,7 @@ const perLineCSS = slots.map(({ chars, start, typeTime, delTime }, i) => {
       animation:
         op${i} ${dur} linear infinite,
         wd${i} ${dur} linear infinite,
-        bl 0.75s step-end infinite;
+        bl${i} 0.75s step-end infinite;
     }
     @keyframes op${i} {
       0%, ${a} { opacity: 0; }
@@ -119,11 +119,15 @@ const perLineCSS = slots.map(({ chars, start, typeTime, delTime }, i) => {
       100%     { opacity: 0; }
     }
     @keyframes wd${i} {
-      0%, ${a} { width: 0; }
-              ${a} { width: 0; animation-timing-function: steps(${chars}, end); }
-              ${b} { width: ${chars}ch; animation-timing-function: linear; }
-              ${c} { width: ${chars}ch; animation-timing-function: steps(${chars}, end); }
-              ${d}, 100% { width: 0; }
+      0%, ${a} { width: 0; border-right-width: 0; }
+              ${a} { width: 0; border-right-width: 0; animation-timing-function: steps(${chars}, end); }
+              ${b} { width: ${chars}ch; border-right-width: ${CURSOR_W}; animation-timing-function: linear; }
+              ${c} { width: ${chars}ch; border-right-width: ${CURSOR_W}; animation-timing-function: steps(${chars}, end); }
+              ${d}, 100% { width: 0; border-right-width: 0; }
+    }
+    @keyframes bl${i} {
+      0%, 100% { border-color: ${COLOR}; }
+      50%      { border-color: transparent; }
     }`;
 }).join('\n');
 
@@ -145,12 +149,8 @@ const baseCSS = `
       color: ${COLOR};
       white-space: nowrap;
       overflow: hidden;
-      border-right: ${CURSOR_W} solid ${COLOR};
+      border-right: ${CURSOR_W} solid transparent;
       opacity: 0;
-    }
-    @keyframes bl {
-      0%, 100% { border-color: ${COLOR}; }
-      50%      { border-color: transparent; }
     }`;
 
 const spans = slots
