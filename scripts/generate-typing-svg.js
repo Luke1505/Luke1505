@@ -90,12 +90,17 @@ const TOTAL = cursor;
 // the width animation uses animation-timing-function set at keyframe stops
 // so we get steps() for the type/delete phases and linear for the hold phase.
 // a shared 'bl' animation handles the cursor blink on the border-right.
+//
+// opacity fades out 0.05s AFTER the delete finishes (point e) to ensure
+// the width animation reaches 0 before the element disappears — otherwise
+// CSS can resolve opacity first and the last characters vanish too early.
 
 const perLineCSS = slots.map(({ chars, start, typeTime, delTime }, i) => {
-  const a = pct(start,                         TOTAL);
-  const b = pct(start + typeTime,              TOTAL);
-  const c = pct(start + typeTime + HOLD,       TOTAL);
-  const d = pct(start + typeTime + HOLD + delTime, TOTAL);
+  const a = pct(start,                                        TOTAL);
+  const b = pct(start + typeTime,                             TOTAL);
+  const c = pct(start + typeTime + HOLD,                      TOTAL);
+  const d = pct(start + typeTime + HOLD + delTime,            TOTAL);
+  const e = pct(start + typeTime + HOLD + delTime + 0.05,     TOTAL); // fade after delete
 
   const dur = TOTAL.toFixed(2) + 's';
 
@@ -107,11 +112,11 @@ const perLineCSS = slots.map(({ chars, start, typeTime, delTime }, i) => {
         bl 0.75s step-end infinite;
     }
     @keyframes op${i} {
-      0%, ${a}  { opacity: 0; }
-               ${a}  { opacity: 1; }
-               ${d}  { opacity: 1; }
-               ${d}  { opacity: 0; }
-      100%      { opacity: 0; }
+      0%, ${a} { opacity: 0; }
+              ${a} { opacity: 1; }
+              ${d} { opacity: 1; }
+              ${e} { opacity: 0; }
+      100%     { opacity: 0; }
     }
     @keyframes wd${i} {
       0%, ${a} { width: 0; }
