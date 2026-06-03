@@ -108,8 +108,8 @@ const perLineCSS = slots.map(({ chars, start, typeTime, delTime }, i) => {
     .t${i} {
       animation:
         op${i} ${dur} linear infinite,
-        wd${i} ${dur} linear infinite,
-        bl${i} 0.75s step-end infinite;
+        bl${i} 0.75s step-end infinite,
+        wd${i} ${dur} linear infinite;
     }
     @keyframes op${i} {
       0%, ${a} { opacity: 0; }
@@ -119,11 +119,11 @@ const perLineCSS = slots.map(({ chars, start, typeTime, delTime }, i) => {
       100%     { opacity: 0; }
     }
     @keyframes wd${i} {
-      0%, ${a} { width: 0; border-right-width: 0; }
-              ${a} { width: 0; border-right-width: 0; animation-timing-function: steps(${chars}, end); }
-              ${b} { width: ${chars}ch; border-right-width: ${CURSOR_W}; animation-timing-function: linear; }
+      0%, ${a} { width: 0; border-right-width: 0; border-color: transparent; }
+              ${a} { width: 0; border-right-width: 0; border-color: transparent; animation-timing-function: steps(${chars}, end); }
+              ${b} { width: ${chars}ch; border-right-width: ${CURSOR_W}; }
               ${c} { width: ${chars}ch; border-right-width: ${CURSOR_W}; animation-timing-function: steps(${chars}, end); }
-              ${d}, 100% { width: 0; border-right-width: 0; }
+              ${d}, 100% { width: 0; border-right-width: 0; border-color: transparent; }
     }
     @keyframes bl${i} {
       0%, 100% { border-color: ${COLOR}; }
