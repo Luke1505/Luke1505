@@ -32,1404 +32,1404 @@
     }
     .t0 {
       animation:
-        op0 189.98s linear infinite,
-        wd0 189.98s linear infinite;
+        op0 186.45s linear infinite,
+        wd0 186.45s linear infinite;
     }
     @keyframes op0 {
       0%, 0.000% { opacity: 0; }
               0.000% { opacity: 1; }
-              2.362% { opacity: 1; }
-              2.389% { opacity: 0; }
+              1.673% { opacity: 1; }
+              1.700% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd0 {
       0%, 0.000% { width: 0; }
-              0.000% { width: 0; animation-timing-function: steps(38, end); }
-              0.960% { width: 38ch; animation-timing-function: linear; }
-              1.802% { width: 38ch; animation-timing-function: steps(38, end); }
-              2.362%, 100% { width: 0; }
+              0.000% { width: 0; animation-timing-function: steps(20, end); }
+              0.515% { width: 20ch; animation-timing-function: linear; }
+              1.373% { width: 20ch; animation-timing-function: steps(20, end); }
+              1.673%, 100% { width: 0; }
     }
     .cur.t0 {
       animation:
-        co0 189.98s linear infinite,
-        cr0 189.98s linear infinite,
+        co0 186.45s linear infinite,
+        cr0 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co0 {
       0%, 0.000% { visibility: hidden; }
               0.000% { visibility: visible; }
-              2.389% { visibility: hidden; }
+              1.700% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr0 {
       0%, 0.000% { left: 28px; }
-              0.000% { left: 28px; animation-timing-function: steps(38, end); }
-              0.960% { left: calc(28px + 38ch); animation-timing-function: linear; }
-              1.802% { left: calc(28px + 38ch); animation-timing-function: steps(38, end); }
-              2.362%, 100% { left: 28px; }
+              0.000% { left: 28px; animation-timing-function: steps(20, end); }
+              0.515% { left: calc(28px + 20ch); animation-timing-function: linear; }
+              1.373% { left: calc(28px + 20ch); animation-timing-function: steps(20, end); }
+              1.673%, 100% { left: 28px; }
     }
 
     .t1 {
       animation:
-        op1 189.98s linear infinite,
-        wd1 189.98s linear infinite;
+        op1 186.45s linear infinite,
+        wd1 186.45s linear infinite;
     }
     @keyframes op1 {
-      0%, 2.457% { opacity: 0; }
-              2.457% { opacity: 1; }
-              5.660% { opacity: 1; }
-              5.686% { opacity: 0; }
+      0%, 1.770% { opacity: 0; }
+              1.770% { opacity: 1; }
+              4.544% { opacity: 1; }
+              4.571% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd1 {
-      0%, 2.457% { width: 0; }
-              2.457% { width: 0; animation-timing-function: steps(59, end); }
-              3.948% { width: 59ch; animation-timing-function: linear; }
-              4.790% { width: 59ch; animation-timing-function: steps(59, end); }
-              5.660%, 100% { width: 0; }
+      0%, 1.770% { width: 0; }
+              1.770% { width: 0; animation-timing-function: steps(47, end); }
+              2.980% { width: 47ch; animation-timing-function: linear; }
+              3.838% { width: 47ch; animation-timing-function: steps(47, end); }
+              4.544%, 100% { width: 0; }
     }
     .cur.t1 {
       animation:
-        co1 189.98s linear infinite,
-        cr1 189.98s linear infinite,
+        co1 186.45s linear infinite,
+        cr1 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co1 {
-      0%, 2.457% { visibility: hidden; }
-              2.457% { visibility: visible; }
-              5.686% { visibility: hidden; }
+      0%, 1.770% { visibility: hidden; }
+              1.770% { visibility: visible; }
+              4.571% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr1 {
-      0%, 2.457% { left: 28px; }
-              2.457% { left: 28px; animation-timing-function: steps(59, end); }
-              3.948% { left: calc(28px + 59ch); animation-timing-function: linear; }
-              4.790% { left: calc(28px + 59ch); animation-timing-function: steps(59, end); }
-              5.660%, 100% { left: 28px; }
+      0%, 1.770% { left: 28px; }
+              1.770% { left: 28px; animation-timing-function: steps(47, end); }
+              2.980% { left: calc(28px + 47ch); animation-timing-function: linear; }
+              3.838% { left: calc(28px + 47ch); animation-timing-function: steps(47, end); }
+              4.544%, 100% { left: 28px; }
     }
 
     .t2 {
       animation:
-        op2 189.98s linear infinite,
-        wd2 189.98s linear infinite;
+        op2 186.45s linear infinite,
+        wd2 186.45s linear infinite;
     }
     @keyframes op2 {
-      0%, 5.754% { opacity: 0; }
-              5.754% { opacity: 1; }
-              8.557% { opacity: 1; }
-              8.583% { opacity: 0; }
+      0%, 4.640% { opacity: 0; }
+              4.640% { opacity: 1; }
+              7.292% { opacity: 1; }
+              7.319% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd2 {
-      0%, 5.754% { width: 0; }
-              5.754% { width: 0; animation-timing-function: steps(49, end); }
-              6.992% { width: 49ch; animation-timing-function: linear; }
-              7.835% { width: 49ch; animation-timing-function: steps(49, end); }
-              8.557%, 100% { width: 0; }
+      0%, 4.640% { width: 0; }
+              4.640% { width: 0; animation-timing-function: steps(44, end); }
+              5.773% { width: 44ch; animation-timing-function: linear; }
+              6.631% { width: 44ch; animation-timing-function: steps(44, end); }
+              7.292%, 100% { width: 0; }
     }
     .cur.t2 {
       animation:
-        co2 189.98s linear infinite,
-        cr2 189.98s linear infinite,
+        co2 186.45s linear infinite,
+        cr2 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co2 {
-      0%, 5.754% { visibility: hidden; }
-              5.754% { visibility: visible; }
-              8.583% { visibility: hidden; }
+      0%, 4.640% { visibility: hidden; }
+              4.640% { visibility: visible; }
+              7.319% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr2 {
-      0%, 5.754% { left: 28px; }
-              5.754% { left: 28px; animation-timing-function: steps(49, end); }
-              6.992% { left: calc(28px + 49ch); animation-timing-function: linear; }
-              7.835% { left: calc(28px + 49ch); animation-timing-function: steps(49, end); }
-              8.557%, 100% { left: 28px; }
+      0%, 4.640% { left: 28px; }
+              4.640% { left: 28px; animation-timing-function: steps(44, end); }
+              5.773% { left: calc(28px + 44ch); animation-timing-function: linear; }
+              6.631% { left: calc(28px + 44ch); animation-timing-function: steps(44, end); }
+              7.292%, 100% { left: 28px; }
     }
 
     .t3 {
       animation:
-        op3 189.98s linear infinite,
-        wd3 189.98s linear infinite;
+        op3 186.45s linear infinite,
+        wd3 186.45s linear infinite;
     }
     @keyframes op3 {
-      0%, 8.651% { opacity: 0; }
-              8.651% { opacity: 1; }
-              10.934% { opacity: 1; }
-              10.960% { opacity: 0; }
+      0%, 7.389% { opacity: 0; }
+              7.389% { opacity: 1; }
+              10.448% { opacity: 1; }
+              10.475% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd3 {
-      0%, 8.651% { width: 0; }
-              8.651% { width: 0; animation-timing-function: steps(36, end); }
-              9.561% { width: 36ch; animation-timing-function: linear; }
-              10.403% { width: 36ch; animation-timing-function: steps(36, end); }
-              10.934%, 100% { width: 0; }
+      0%, 7.389% { width: 0; }
+              7.389% { width: 0; animation-timing-function: steps(54, end); }
+              8.779% { width: 54ch; animation-timing-function: linear; }
+              9.637% { width: 54ch; animation-timing-function: steps(54, end); }
+              10.448%, 100% { width: 0; }
     }
     .cur.t3 {
       animation:
-        co3 189.98s linear infinite,
-        cr3 189.98s linear infinite,
+        co3 186.45s linear infinite,
+        cr3 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co3 {
-      0%, 8.651% { visibility: hidden; }
-              8.651% { visibility: visible; }
-              10.960% { visibility: hidden; }
+      0%, 7.389% { visibility: hidden; }
+              7.389% { visibility: visible; }
+              10.475% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr3 {
-      0%, 8.651% { left: 28px; }
-              8.651% { left: 28px; animation-timing-function: steps(36, end); }
-              9.561% { left: calc(28px + 36ch); animation-timing-function: linear; }
-              10.403% { left: calc(28px + 36ch); animation-timing-function: steps(36, end); }
-              10.934%, 100% { left: 28px; }
+      0%, 7.389% { left: 28px; }
+              7.389% { left: 28px; animation-timing-function: steps(54, end); }
+              8.779% { left: calc(28px + 54ch); animation-timing-function: linear; }
+              9.637% { left: calc(28px + 54ch); animation-timing-function: steps(54, end); }
+              10.448%, 100% { left: 28px; }
     }
 
     .t4 {
       animation:
-        op4 189.98s linear infinite,
-        wd4 189.98s linear infinite;
+        op4 186.45s linear infinite,
+        wd4 186.45s linear infinite;
     }
     @keyframes op4 {
-      0%, 11.029% { opacity: 0; }
-              11.029% { opacity: 1; }
-              14.631% { opacity: 1; }
-              14.657% { opacity: 0; }
+      0%, 10.545% { opacity: 0; }
+              10.545% { opacity: 1; }
+              12.381% { opacity: 1; }
+              12.408% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd4 {
-      0%, 11.029% { width: 0; }
-              11.029% { width: 0; animation-timing-function: steps(69, end); }
-              12.772% { width: 69ch; animation-timing-function: linear; }
-              13.614% { width: 69ch; animation-timing-function: steps(69, end); }
-              14.631%, 100% { width: 0; }
+      0%, 10.545% { width: 0; }
+              10.545% { width: 0; animation-timing-function: steps(24, end); }
+              11.162% { width: 24ch; animation-timing-function: linear; }
+              12.021% { width: 24ch; animation-timing-function: steps(24, end); }
+              12.381%, 100% { width: 0; }
     }
     .cur.t4 {
       animation:
-        co4 189.98s linear infinite,
-        cr4 189.98s linear infinite,
+        co4 186.45s linear infinite,
+        cr4 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co4 {
-      0%, 11.029% { visibility: hidden; }
-              11.029% { visibility: visible; }
-              14.657% { visibility: hidden; }
+      0%, 10.545% { visibility: hidden; }
+              10.545% { visibility: visible; }
+              12.408% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr4 {
-      0%, 11.029% { left: 28px; }
-              11.029% { left: 28px; animation-timing-function: steps(69, end); }
-              12.772% { left: calc(28px + 69ch); animation-timing-function: linear; }
-              13.614% { left: calc(28px + 69ch); animation-timing-function: steps(69, end); }
-              14.631%, 100% { left: 28px; }
+      0%, 10.545% { left: 28px; }
+              10.545% { left: 28px; animation-timing-function: steps(24, end); }
+              11.162% { left: calc(28px + 24ch); animation-timing-function: linear; }
+              12.021% { left: calc(28px + 24ch); animation-timing-function: steps(24, end); }
+              12.381%, 100% { left: 28px; }
     }
 
     .t5 {
       animation:
-        op5 189.98s linear infinite,
-        wd5 189.98s linear infinite;
+        op5 186.45s linear infinite,
+        wd5 186.45s linear infinite;
     }
     @keyframes op5 {
-      0%, 14.726% { opacity: 0; }
-              14.726% { opacity: 1; }
-              17.568% { opacity: 1; }
-              17.594% { opacity: 0; }
+      0%, 12.478% { opacity: 0; }
+              12.478% { opacity: 1; }
+              14.926% { opacity: 1; }
+              14.952% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd5 {
-      0%, 14.726% { width: 0; }
-              14.726% { width: 0; animation-timing-function: steps(50, end); }
-              15.989% { width: 50ch; animation-timing-function: linear; }
-              16.831% { width: 50ch; animation-timing-function: steps(50, end); }
-              17.568%, 100% { width: 0; }
+      0%, 12.478% { width: 0; }
+              12.478% { width: 0; animation-timing-function: steps(39, end); }
+              13.482% { width: 39ch; animation-timing-function: linear; }
+              14.340% { width: 39ch; animation-timing-function: steps(39, end); }
+              14.926%, 100% { width: 0; }
     }
     .cur.t5 {
       animation:
-        co5 189.98s linear infinite,
-        cr5 189.98s linear infinite,
+        co5 186.45s linear infinite,
+        cr5 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co5 {
-      0%, 14.726% { visibility: hidden; }
-              14.726% { visibility: visible; }
-              17.594% { visibility: hidden; }
+      0%, 12.478% { visibility: hidden; }
+              12.478% { visibility: visible; }
+              14.952% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr5 {
-      0%, 14.726% { left: 28px; }
-              14.726% { left: 28px; animation-timing-function: steps(50, end); }
-              15.989% { left: calc(28px + 50ch); animation-timing-function: linear; }
-              16.831% { left: calc(28px + 50ch); animation-timing-function: steps(50, end); }
-              17.568%, 100% { left: 28px; }
+      0%, 12.478% { left: 28px; }
+              12.478% { left: 28px; animation-timing-function: steps(39, end); }
+              13.482% { left: calc(28px + 39ch); animation-timing-function: linear; }
+              14.340% { left: calc(28px + 39ch); animation-timing-function: steps(39, end); }
+              14.926%, 100% { left: 28px; }
     }
 
     .t6 {
       animation:
-        op6 189.98s linear infinite,
-        wd6 189.98s linear infinite;
+        op6 186.45s linear infinite,
+        wd6 186.45s linear infinite;
     }
     @keyframes op6 {
-      0%, 17.663% { opacity: 0; }
-              17.663% { opacity: 1; }
-              20.345% { opacity: 1; }
-              20.372% { opacity: 0; }
+      0%, 15.022% { opacity: 0; }
+              15.022% { opacity: 1; }
+              18.285% { opacity: 1; }
+              18.312% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd6 {
-      0%, 17.663% { width: 0; }
-              17.663% { width: 0; animation-timing-function: steps(46, end); }
-              18.825% { width: 46ch; animation-timing-function: linear; }
-              19.667% { width: 46ch; animation-timing-function: steps(46, end); }
-              20.345%, 100% { width: 0; }
+      0%, 15.022% { width: 0; }
+              15.022% { width: 0; animation-timing-function: steps(59, end); }
+              16.541% { width: 59ch; animation-timing-function: linear; }
+              17.399% { width: 59ch; animation-timing-function: steps(59, end); }
+              18.285%, 100% { width: 0; }
     }
     .cur.t6 {
       animation:
-        co6 189.98s linear infinite,
-        cr6 189.98s linear infinite,
+        co6 186.45s linear infinite,
+        cr6 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co6 {
-      0%, 17.663% { visibility: hidden; }
-              17.663% { visibility: visible; }
-              20.372% { visibility: hidden; }
+      0%, 15.022% { visibility: hidden; }
+              15.022% { visibility: visible; }
+              18.312% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr6 {
-      0%, 17.663% { left: 28px; }
-              17.663% { left: 28px; animation-timing-function: steps(46, end); }
-              18.825% { left: calc(28px + 46ch); animation-timing-function: linear; }
-              19.667% { left: calc(28px + 46ch); animation-timing-function: steps(46, end); }
-              20.345%, 100% { left: 28px; }
+      0%, 15.022% { left: 28px; }
+              15.022% { left: 28px; animation-timing-function: steps(59, end); }
+              16.541% { left: calc(28px + 59ch); animation-timing-function: linear; }
+              17.399% { left: calc(28px + 59ch); animation-timing-function: steps(59, end); }
+              18.285%, 100% { left: 28px; }
     }
 
     .t7 {
       animation:
-        op7 189.98s linear infinite,
-        wd7 189.98s linear infinite;
+        op7 186.45s linear infinite,
+        wd7 186.45s linear infinite;
     }
     @keyframes op7 {
-      0%, 20.440% { opacity: 0; }
-              20.440% { opacity: 1; }
-              22.842% { opacity: 1; }
-              22.869% { opacity: 0; }
+      0%, 18.382% { opacity: 0; }
+              18.382% { opacity: 1; }
+              21.563% { opacity: 1; }
+              21.590% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd7 {
-      0%, 20.440% { width: 0; }
-              20.440% { width: 0; animation-timing-function: steps(39, end); }
-              21.425% { width: 39ch; animation-timing-function: linear; }
-              22.268% { width: 39ch; animation-timing-function: steps(39, end); }
-              22.842%, 100% { width: 0; }
+      0%, 18.382% { width: 0; }
+              18.382% { width: 0; animation-timing-function: steps(57, end); }
+              19.849% { width: 57ch; animation-timing-function: linear; }
+              20.707% { width: 57ch; animation-timing-function: steps(57, end); }
+              21.563%, 100% { width: 0; }
     }
     .cur.t7 {
       animation:
-        co7 189.98s linear infinite,
-        cr7 189.98s linear infinite,
+        co7 186.45s linear infinite,
+        cr7 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co7 {
-      0%, 20.440% { visibility: hidden; }
-              20.440% { visibility: visible; }
-              22.869% { visibility: hidden; }
+      0%, 18.382% { visibility: hidden; }
+              18.382% { visibility: visible; }
+              21.590% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr7 {
-      0%, 20.440% { left: 28px; }
-              20.440% { left: 28px; animation-timing-function: steps(39, end); }
-              21.425% { left: calc(28px + 39ch); animation-timing-function: linear; }
-              22.268% { left: calc(28px + 39ch); animation-timing-function: steps(39, end); }
-              22.842%, 100% { left: 28px; }
+      0%, 18.382% { left: 28px; }
+              18.382% { left: 28px; animation-timing-function: steps(57, end); }
+              19.849% { left: calc(28px + 57ch); animation-timing-function: linear; }
+              20.707% { left: calc(28px + 57ch); animation-timing-function: steps(57, end); }
+              21.563%, 100% { left: 28px; }
     }
 
     .t8 {
       animation:
-        op8 189.98s linear infinite,
-        wd8 189.98s linear infinite;
+        op8 186.45s linear infinite,
+        wd8 186.45s linear infinite;
     }
     @keyframes op8 {
-      0%, 22.937% { opacity: 0; }
-              22.937% { opacity: 1; }
-              25.059% { opacity: 1; }
-              25.086% { opacity: 0; }
+      0%, 21.660% { opacity: 0; }
+              21.660% { opacity: 1; }
+              25.168% { opacity: 1; }
+              25.194% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd8 {
-      0%, 22.937% { width: 0; }
-              22.937% { width: 0; animation-timing-function: steps(32, end); }
-              23.746% { width: 32ch; animation-timing-function: linear; }
-              24.588% { width: 32ch; animation-timing-function: steps(32, end); }
-              25.059%, 100% { width: 0; }
+      0%, 21.660% { width: 0; }
+              21.660% { width: 0; animation-timing-function: steps(65, end); }
+              23.333% { width: 65ch; animation-timing-function: linear; }
+              24.191% { width: 65ch; animation-timing-function: steps(65, end); }
+              25.168%, 100% { width: 0; }
     }
     .cur.t8 {
       animation:
-        co8 189.98s linear infinite,
-        cr8 189.98s linear infinite,
+        co8 186.45s linear infinite,
+        cr8 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co8 {
-      0%, 22.937% { visibility: hidden; }
-              22.937% { visibility: visible; }
-              25.086% { visibility: hidden; }
+      0%, 21.660% { visibility: hidden; }
+              21.660% { visibility: visible; }
+              25.194% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr8 {
-      0%, 22.937% { left: 28px; }
-              22.937% { left: 28px; animation-timing-function: steps(32, end); }
-              23.746% { left: calc(28px + 32ch); animation-timing-function: linear; }
-              24.588% { left: calc(28px + 32ch); animation-timing-function: steps(32, end); }
-              25.059%, 100% { left: 28px; }
+      0%, 21.660% { left: 28px; }
+              21.660% { left: 28px; animation-timing-function: steps(65, end); }
+              23.333% { left: calc(28px + 65ch); animation-timing-function: linear; }
+              24.191% { left: calc(28px + 65ch); animation-timing-function: steps(65, end); }
+              25.168%, 100% { left: 28px; }
     }
 
     .t9 {
       animation:
-        op9 189.98s linear infinite,
-        wd9 189.98s linear infinite;
+        op9 186.45s linear infinite,
+        wd9 186.45s linear infinite;
     }
     @keyframes op9 {
-      0%, 25.154% { opacity: 0; }
-              25.154% { opacity: 1; }
-              28.557% { opacity: 1; }
-              28.583% { opacity: 0; }
+      0%, 25.264% { opacity: 0; }
+              25.264% { opacity: 1; }
+              27.794% { opacity: 1; }
+              27.820% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd9 {
-      0%, 25.154% { width: 0; }
-              25.154% { width: 0; animation-timing-function: steps(64, end); }
-              26.771% { width: 64ch; animation-timing-function: linear; }
-              27.613% { width: 64ch; animation-timing-function: steps(64, end); }
-              28.557%, 100% { width: 0; }
+      0%, 25.264% { width: 0; }
+              25.264% { width: 0; animation-timing-function: steps(41, end); }
+              26.320% { width: 41ch; animation-timing-function: linear; }
+              27.178% { width: 41ch; animation-timing-function: steps(41, end); }
+              27.794%, 100% { width: 0; }
     }
     .cur.t9 {
       animation:
-        co9 189.98s linear infinite,
-        cr9 189.98s linear infinite,
+        co9 186.45s linear infinite,
+        cr9 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co9 {
-      0%, 25.154% { visibility: hidden; }
-              25.154% { visibility: visible; }
-              28.583% { visibility: hidden; }
+      0%, 25.264% { visibility: hidden; }
+              25.264% { visibility: visible; }
+              27.820% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr9 {
-      0%, 25.154% { left: 28px; }
-              25.154% { left: 28px; animation-timing-function: steps(64, end); }
-              26.771% { left: calc(28px + 64ch); animation-timing-function: linear; }
-              27.613% { left: calc(28px + 64ch); animation-timing-function: steps(64, end); }
-              28.557%, 100% { left: 28px; }
+      0%, 25.264% { left: 28px; }
+              25.264% { left: 28px; animation-timing-function: steps(41, end); }
+              26.320% { left: calc(28px + 41ch); animation-timing-function: linear; }
+              27.178% { left: calc(28px + 41ch); animation-timing-function: steps(41, end); }
+              27.794%, 100% { left: 28px; }
     }
 
     .t10 {
       animation:
-        op10 189.98s linear infinite,
-        wd10 189.98s linear infinite;
+        op10 186.45s linear infinite,
+        wd10 186.45s linear infinite;
     }
     @keyframes op10 {
-      0%, 28.651% { opacity: 0; }
-              28.651% { opacity: 1; }
-              31.774% { opacity: 1; }
-              31.800% { opacity: 0; }
+      0%, 27.890% { opacity: 0; }
+              27.890% { opacity: 1; }
+              31.316% { opacity: 1; }
+              31.343% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd10 {
-      0%, 28.651% { width: 0; }
-              28.651% { width: 0; animation-timing-function: steps(57, end); }
-              30.092% { width: 57ch; animation-timing-function: linear; }
-              30.934% { width: 57ch; animation-timing-function: steps(57, end); }
-              31.774%, 100% { width: 0; }
+      0%, 27.890% { width: 0; }
+              27.890% { width: 0; animation-timing-function: steps(63, end); }
+              29.512% { width: 63ch; animation-timing-function: linear; }
+              30.370% { width: 63ch; animation-timing-function: steps(63, end); }
+              31.316%, 100% { width: 0; }
     }
     .cur.t10 {
       animation:
-        co10 189.98s linear infinite,
-        cr10 189.98s linear infinite,
+        co10 186.45s linear infinite,
+        cr10 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co10 {
-      0%, 28.651% { visibility: hidden; }
-              28.651% { visibility: visible; }
-              31.800% { visibility: hidden; }
+      0%, 27.890% { visibility: hidden; }
+              27.890% { visibility: visible; }
+              31.343% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr10 {
-      0%, 28.651% { left: 28px; }
-              28.651% { left: 28px; animation-timing-function: steps(57, end); }
-              30.092% { left: calc(28px + 57ch); animation-timing-function: linear; }
-              30.934% { left: calc(28px + 57ch); animation-timing-function: steps(57, end); }
-              31.774%, 100% { left: 28px; }
+      0%, 27.890% { left: 28px; }
+              27.890% { left: 28px; animation-timing-function: steps(63, end); }
+              29.512% { left: calc(28px + 63ch); animation-timing-function: linear; }
+              30.370% { left: calc(28px + 63ch); animation-timing-function: steps(63, end); }
+              31.316%, 100% { left: 28px; }
     }
 
     .t11 {
       animation:
-        op11 189.98s linear infinite,
-        wd11 189.98s linear infinite;
+        op11 186.45s linear infinite,
+        wd11 186.45s linear infinite;
     }
     @keyframes op11 {
-      0%, 31.869% { opacity: 0; }
-              31.869% { opacity: 1; }
-              34.551% { opacity: 1; }
-              34.577% { opacity: 0; }
+      0%, 31.413% { opacity: 0; }
+              31.413% { opacity: 1; }
+              34.146% { opacity: 1; }
+              34.173% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd11 {
-      0%, 31.869% { width: 0; }
-              31.869% { width: 0; animation-timing-function: steps(46, end); }
-              33.031% { width: 46ch; animation-timing-function: linear; }
-              33.873% { width: 46ch; animation-timing-function: steps(46, end); }
-              34.551%, 100% { width: 0; }
+      0%, 31.413% { width: 0; }
+              31.413% { width: 0; animation-timing-function: steps(46, end); }
+              32.597% { width: 46ch; animation-timing-function: linear; }
+              33.455% { width: 46ch; animation-timing-function: steps(46, end); }
+              34.146%, 100% { width: 0; }
     }
     .cur.t11 {
       animation:
-        co11 189.98s linear infinite,
-        cr11 189.98s linear infinite,
+        co11 186.45s linear infinite,
+        cr11 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co11 {
-      0%, 31.869% { visibility: hidden; }
-              31.869% { visibility: visible; }
-              34.577% { visibility: hidden; }
+      0%, 31.413% { visibility: hidden; }
+              31.413% { visibility: visible; }
+              34.173% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr11 {
-      0%, 31.869% { left: 28px; }
-              31.869% { left: 28px; animation-timing-function: steps(46, end); }
-              33.031% { left: calc(28px + 46ch); animation-timing-function: linear; }
-              33.873% { left: calc(28px + 46ch); animation-timing-function: steps(46, end); }
-              34.551%, 100% { left: 28px; }
+      0%, 31.413% { left: 28px; }
+              31.413% { left: 28px; animation-timing-function: steps(46, end); }
+              32.597% { left: calc(28px + 46ch); animation-timing-function: linear; }
+              33.455% { left: calc(28px + 46ch); animation-timing-function: steps(46, end); }
+              34.146%, 100% { left: 28px; }
     }
 
     .t12 {
       animation:
-        op12 189.98s linear infinite,
-        wd12 189.98s linear infinite;
+        op12 186.45s linear infinite,
+        wd12 186.45s linear infinite;
     }
     @keyframes op12 {
-      0%, 34.646% { opacity: 0; }
-              34.646% { opacity: 1; }
-              37.568% { opacity: 1; }
-              37.594% { opacity: 0; }
+      0%, 34.243% { opacity: 0; }
+              34.243% { opacity: 1; }
+              37.913% { opacity: 1; }
+              37.940% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd12 {
-      0%, 34.646% { width: 0; }
-              34.646% { width: 0; animation-timing-function: steps(52, end); }
-              35.960% { width: 52ch; animation-timing-function: linear; }
-              36.802% { width: 52ch; animation-timing-function: steps(52, end); }
-              37.568%, 100% { width: 0; }
+      0%, 34.243% { width: 0; }
+              34.243% { width: 0; animation-timing-function: steps(69, end); }
+              36.019% { width: 69ch; animation-timing-function: linear; }
+              36.877% { width: 69ch; animation-timing-function: steps(69, end); }
+              37.913%, 100% { width: 0; }
     }
     .cur.t12 {
       animation:
-        co12 189.98s linear infinite,
-        cr12 189.98s linear infinite,
+        co12 186.45s linear infinite,
+        cr12 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co12 {
-      0%, 34.646% { visibility: hidden; }
-              34.646% { visibility: visible; }
-              37.594% { visibility: hidden; }
+      0%, 34.243% { visibility: hidden; }
+              34.243% { visibility: visible; }
+              37.940% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr12 {
-      0%, 34.646% { left: 28px; }
-              34.646% { left: 28px; animation-timing-function: steps(52, end); }
-              35.960% { left: calc(28px + 52ch); animation-timing-function: linear; }
-              36.802% { left: calc(28px + 52ch); animation-timing-function: steps(52, end); }
-              37.568%, 100% { left: 28px; }
+      0%, 34.243% { left: 28px; }
+              34.243% { left: 28px; animation-timing-function: steps(69, end); }
+              36.019% { left: calc(28px + 69ch); animation-timing-function: linear; }
+              36.877% { left: calc(28px + 69ch); animation-timing-function: steps(69, end); }
+              37.913%, 100% { left: 28px; }
     }
 
     .t13 {
       animation:
-        op13 189.98s linear infinite,
-        wd13 189.98s linear infinite;
+        op13 186.45s linear infinite,
+        wd13 186.45s linear infinite;
     }
     @keyframes op13 {
-      0%, 37.663% { opacity: 0; }
-              37.663% { opacity: 1; }
-              40.785% { opacity: 1; }
-              40.812% { opacity: 0; }
+      0%, 38.010% { opacity: 0; }
+              38.010% { opacity: 1; }
+              40.988% { opacity: 1; }
+              41.015% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd13 {
-      0%, 37.663% { width: 0; }
-              37.663% { width: 0; animation-timing-function: steps(57, end); }
-              39.103% { width: 57ch; animation-timing-function: linear; }
-              39.945% { width: 57ch; animation-timing-function: steps(57, end); }
-              40.785%, 100% { width: 0; }
+      0%, 38.010% { width: 0; }
+              38.010% { width: 0; animation-timing-function: steps(52, end); }
+              39.349% { width: 52ch; animation-timing-function: linear; }
+              40.207% { width: 52ch; animation-timing-function: steps(52, end); }
+              40.988%, 100% { width: 0; }
     }
     .cur.t13 {
       animation:
-        co13 189.98s linear infinite,
-        cr13 189.98s linear infinite,
+        co13 186.45s linear infinite,
+        cr13 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co13 {
-      0%, 37.663% { visibility: hidden; }
-              37.663% { visibility: visible; }
-              40.812% { visibility: hidden; }
+      0%, 38.010% { visibility: hidden; }
+              38.010% { visibility: visible; }
+              41.015% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr13 {
-      0%, 37.663% { left: 28px; }
-              37.663% { left: 28px; animation-timing-function: steps(57, end); }
-              39.103% { left: calc(28px + 57ch); animation-timing-function: linear; }
-              39.945% { left: calc(28px + 57ch); animation-timing-function: steps(57, end); }
-              40.785%, 100% { left: 28px; }
+      0%, 38.010% { left: 28px; }
+              38.010% { left: 28px; animation-timing-function: steps(52, end); }
+              39.349% { left: calc(28px + 52ch); animation-timing-function: linear; }
+              40.207% { left: calc(28px + 52ch); animation-timing-function: steps(52, end); }
+              40.988%, 100% { left: 28px; }
     }
 
     .t14 {
       animation:
-        op14 189.98s linear infinite,
-        wd14 189.98s linear infinite;
+        op14 186.45s linear infinite,
+        wd14 186.45s linear infinite;
     }
     @keyframes op14 {
-      0%, 40.880% { opacity: 0; }
-              40.880% { opacity: 1; }
-              43.482% { opacity: 1; }
-              43.509% { opacity: 0; }
+      0%, 41.084% { opacity: 0; }
+              41.084% { opacity: 1; }
+              44.470% { opacity: 1; }
+              44.497% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd14 {
-      0%, 40.880% { width: 0; }
-              40.880% { width: 0; animation-timing-function: steps(44, end); }
-              41.992% { width: 44ch; animation-timing-function: linear; }
-              42.834% { width: 44ch; animation-timing-function: steps(44, end); }
-              43.482%, 100% { width: 0; }
+      0%, 41.084% { width: 0; }
+              41.084% { width: 0; animation-timing-function: steps(62, end); }
+              42.680% { width: 62ch; animation-timing-function: linear; }
+              43.539% { width: 62ch; animation-timing-function: steps(62, end); }
+              44.470%, 100% { width: 0; }
     }
     .cur.t14 {
       animation:
-        co14 189.98s linear infinite,
-        cr14 189.98s linear infinite,
+        co14 186.45s linear infinite,
+        cr14 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co14 {
-      0%, 40.880% { visibility: hidden; }
-              40.880% { visibility: visible; }
-              43.509% { visibility: hidden; }
+      0%, 41.084% { visibility: hidden; }
+              41.084% { visibility: visible; }
+              44.497% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr14 {
-      0%, 40.880% { left: 28px; }
-              40.880% { left: 28px; animation-timing-function: steps(44, end); }
-              41.992% { left: calc(28px + 44ch); animation-timing-function: linear; }
-              42.834% { left: calc(28px + 44ch); animation-timing-function: steps(44, end); }
-              43.482%, 100% { left: 28px; }
+      0%, 41.084% { left: 28px; }
+              41.084% { left: 28px; animation-timing-function: steps(62, end); }
+              42.680% { left: calc(28px + 62ch); animation-timing-function: linear; }
+              43.539% { left: calc(28px + 62ch); animation-timing-function: steps(62, end); }
+              44.470%, 100% { left: 28px; }
     }
 
     .t15 {
       animation:
-        op15 189.98s linear infinite,
-        wd15 189.98s linear infinite;
+        op15 186.45s linear infinite,
+        wd15 186.45s linear infinite;
     }
     @keyframes op15 {
-      0%, 43.577% { opacity: 0; }
-              43.577% { opacity: 1; }
-              46.940% { opacity: 1; }
-              46.966% { opacity: 0; }
+      0%, 44.566% { opacity: 0; }
+              44.566% { opacity: 1; }
+              46.892% { opacity: 1; }
+              46.919% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd15 {
-      0%, 43.577% { width: 0; }
-              43.577% { width: 0; animation-timing-function: steps(63, end); }
-              45.169% { width: 63ch; animation-timing-function: linear; }
-              46.011% { width: 63ch; animation-timing-function: steps(63, end); }
-              46.940%, 100% { width: 0; }
+      0%, 44.566% { width: 0; }
+              44.566% { width: 0; animation-timing-function: steps(36, end); }
+              45.493% { width: 36ch; animation-timing-function: linear; }
+              46.351% { width: 36ch; animation-timing-function: steps(36, end); }
+              46.892%, 100% { width: 0; }
     }
     .cur.t15 {
       animation:
-        co15 189.98s linear infinite,
-        cr15 189.98s linear infinite,
+        co15 186.45s linear infinite,
+        cr15 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co15 {
-      0%, 43.577% { visibility: hidden; }
-              43.577% { visibility: visible; }
-              46.966% { visibility: hidden; }
+      0%, 44.566% { visibility: hidden; }
+              44.566% { visibility: visible; }
+              46.919% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr15 {
-      0%, 43.577% { left: 28px; }
-              43.577% { left: 28px; animation-timing-function: steps(63, end); }
-              45.169% { left: calc(28px + 63ch); animation-timing-function: linear; }
-              46.011% { left: calc(28px + 63ch); animation-timing-function: steps(63, end); }
-              46.940%, 100% { left: 28px; }
+      0%, 44.566% { left: 28px; }
+              44.566% { left: 28px; animation-timing-function: steps(36, end); }
+              45.493% { left: calc(28px + 36ch); animation-timing-function: linear; }
+              46.351% { left: calc(28px + 36ch); animation-timing-function: steps(36, end); }
+              46.892%, 100% { left: 28px; }
     }
 
     .t16 {
       animation:
-        op16 189.98s linear infinite,
-        wd16 189.98s linear infinite;
+        op16 186.45s linear infinite,
+        wd16 186.45s linear infinite;
     }
     @keyframes op16 {
-      0%, 47.034% { opacity: 0; }
-              47.034% { opacity: 1; }
-              50.117% { opacity: 1; }
-              50.143% { opacity: 0; }
+      0%, 46.988% { opacity: 0; }
+              46.988% { opacity: 1; }
+              50.374% { opacity: 1; }
+              50.401% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd16 {
-      0%, 47.034% { width: 0; }
-              47.034% { width: 0; animation-timing-function: steps(56, end); }
-              48.449% { width: 56ch; animation-timing-function: linear; }
-              49.292% { width: 56ch; animation-timing-function: steps(56, end); }
-              50.117%, 100% { width: 0; }
+      0%, 46.988% { width: 0; }
+              46.988% { width: 0; animation-timing-function: steps(62, end); }
+              48.585% { width: 62ch; animation-timing-function: linear; }
+              49.443% { width: 62ch; animation-timing-function: steps(62, end); }
+              50.374%, 100% { width: 0; }
     }
     .cur.t16 {
       animation:
-        co16 189.98s linear infinite,
-        cr16 189.98s linear infinite,
+        co16 186.45s linear infinite,
+        cr16 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co16 {
-      0%, 47.034% { visibility: hidden; }
-              47.034% { visibility: visible; }
-              50.143% { visibility: hidden; }
+      0%, 46.988% { visibility: hidden; }
+              46.988% { visibility: visible; }
+              50.401% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr16 {
-      0%, 47.034% { left: 28px; }
-              47.034% { left: 28px; animation-timing-function: steps(56, end); }
-              48.449% { left: calc(28px + 56ch); animation-timing-function: linear; }
-              49.292% { left: calc(28px + 56ch); animation-timing-function: steps(56, end); }
-              50.117%, 100% { left: 28px; }
+      0%, 46.988% { left: 28px; }
+              46.988% { left: 28px; animation-timing-function: steps(62, end); }
+              48.585% { left: calc(28px + 62ch); animation-timing-function: linear; }
+              49.443% { left: calc(28px + 62ch); animation-timing-function: steps(62, end); }
+              50.374%, 100% { left: 28px; }
     }
 
     .t17 {
       animation:
-        op17 189.98s linear infinite,
-        wd17 189.98s linear infinite;
+        op17 186.45s linear infinite,
+        wd17 186.45s linear infinite;
     }
     @keyframes op17 {
-      0%, 50.212% { opacity: 0; }
-              50.212% { opacity: 1; }
-              52.614% { opacity: 1; }
-              52.640% { opacity: 0; }
+      0%, 50.470% { opacity: 0; }
+              50.470% { opacity: 1; }
+              52.755% { opacity: 1; }
+              52.782% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd17 {
-      0%, 50.212% { width: 0; }
-              50.212% { width: 0; animation-timing-function: steps(39, end); }
-              51.197% { width: 39ch; animation-timing-function: linear; }
-              52.039% { width: 39ch; animation-timing-function: steps(39, end); }
-              52.614%, 100% { width: 0; }
+      0%, 50.470% { width: 0; }
+              50.470% { width: 0; animation-timing-function: steps(35, end); }
+              51.371% { width: 35ch; animation-timing-function: linear; }
+              52.230% { width: 35ch; animation-timing-function: steps(35, end); }
+              52.755%, 100% { width: 0; }
     }
     .cur.t17 {
       animation:
-        co17 189.98s linear infinite,
-        cr17 189.98s linear infinite,
+        co17 186.45s linear infinite,
+        cr17 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co17 {
-      0%, 50.212% { visibility: hidden; }
-              50.212% { visibility: visible; }
-              52.640% { visibility: hidden; }
+      0%, 50.470% { visibility: hidden; }
+              50.470% { visibility: visible; }
+              52.782% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr17 {
-      0%, 50.212% { left: 28px; }
-              50.212% { left: 28px; animation-timing-function: steps(39, end); }
-              51.197% { left: calc(28px + 39ch); animation-timing-function: linear; }
-              52.039% { left: calc(28px + 39ch); animation-timing-function: steps(39, end); }
-              52.614%, 100% { left: 28px; }
+      0%, 50.470% { left: 28px; }
+              50.470% { left: 28px; animation-timing-function: steps(35, end); }
+              51.371% { left: calc(28px + 35ch); animation-timing-function: linear; }
+              52.230% { left: calc(28px + 35ch); animation-timing-function: steps(35, end); }
+              52.755%, 100% { left: 28px; }
     }
 
     .t18 {
       animation:
-        op18 189.98s linear infinite,
-        wd18 189.98s linear infinite;
+        op18 186.45s linear infinite,
+        wd18 186.45s linear infinite;
     }
     @keyframes op18 {
-      0%, 52.709% { opacity: 0; }
-              52.709% { opacity: 1; }
-              54.831% { opacity: 1; }
-              54.857% { opacity: 0; }
+      0%, 52.852% { opacity: 0; }
+              52.852% { opacity: 1; }
+              55.177% { opacity: 1; }
+              55.204% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd18 {
-      0%, 52.709% { width: 0; }
-              52.709% { width: 0; animation-timing-function: steps(32, end); }
-              53.517% { width: 32ch; animation-timing-function: linear; }
-              54.359% { width: 32ch; animation-timing-function: steps(32, end); }
-              54.831%, 100% { width: 0; }
+      0%, 52.852% { width: 0; }
+              52.852% { width: 0; animation-timing-function: steps(36, end); }
+              53.779% { width: 36ch; animation-timing-function: linear; }
+              54.637% { width: 36ch; animation-timing-function: steps(36, end); }
+              55.177%, 100% { width: 0; }
     }
     .cur.t18 {
       animation:
-        co18 189.98s linear infinite,
-        cr18 189.98s linear infinite,
+        co18 186.45s linear infinite,
+        cr18 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co18 {
-      0%, 52.709% { visibility: hidden; }
-              52.709% { visibility: visible; }
-              54.857% { visibility: hidden; }
+      0%, 52.852% { visibility: hidden; }
+              52.852% { visibility: visible; }
+              55.204% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr18 {
-      0%, 52.709% { left: 28px; }
-              52.709% { left: 28px; animation-timing-function: steps(32, end); }
-              53.517% { left: calc(28px + 32ch); animation-timing-function: linear; }
-              54.359% { left: calc(28px + 32ch); animation-timing-function: steps(32, end); }
-              54.831%, 100% { left: 28px; }
+      0%, 52.852% { left: 28px; }
+              52.852% { left: 28px; animation-timing-function: steps(36, end); }
+              53.779% { left: calc(28px + 36ch); animation-timing-function: linear; }
+              54.637% { left: calc(28px + 36ch); animation-timing-function: steps(36, end); }
+              55.177%, 100% { left: 28px; }
     }
 
     .t19 {
       animation:
-        op19 189.98s linear infinite,
-        wd19 189.98s linear infinite;
+        op19 186.45s linear infinite,
+        wd19 186.45s linear infinite;
     }
     @keyframes op19 {
-      0%, 54.926% { opacity: 0; }
-              54.926% { opacity: 1; }
-              57.128% { opacity: 1; }
-              57.154% { opacity: 0; }
+      0%, 55.274% { opacity: 0; }
+              55.274% { opacity: 1; }
+              57.640% { opacity: 1; }
+              57.667% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd19 {
-      0%, 54.926% { width: 0; }
-              54.926% { width: 0; animation-timing-function: steps(34, end); }
-              55.785% { width: 34ch; animation-timing-function: linear; }
-              56.627% { width: 34ch; animation-timing-function: steps(34, end); }
-              57.128%, 100% { width: 0; }
+      0%, 55.274% { width: 0; }
+              55.274% { width: 0; animation-timing-function: steps(37, end); }
+              56.226% { width: 37ch; animation-timing-function: linear; }
+              57.085% { width: 37ch; animation-timing-function: steps(37, end); }
+              57.640%, 100% { width: 0; }
     }
     .cur.t19 {
       animation:
-        co19 189.98s linear infinite,
-        cr19 189.98s linear infinite,
+        co19 186.45s linear infinite,
+        cr19 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co19 {
-      0%, 54.926% { visibility: hidden; }
-              54.926% { visibility: visible; }
-              57.154% { visibility: hidden; }
+      0%, 55.274% { visibility: hidden; }
+              55.274% { visibility: visible; }
+              57.667% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr19 {
-      0%, 54.926% { left: 28px; }
-              54.926% { left: 28px; animation-timing-function: steps(34, end); }
-              55.785% { left: calc(28px + 34ch); animation-timing-function: linear; }
-              56.627% { left: calc(28px + 34ch); animation-timing-function: steps(34, end); }
-              57.128%, 100% { left: 28px; }
+      0%, 55.274% { left: 28px; }
+              55.274% { left: 28px; animation-timing-function: steps(37, end); }
+              56.226% { left: calc(28px + 37ch); animation-timing-function: linear; }
+              57.085% { left: calc(28px + 37ch); animation-timing-function: steps(37, end); }
+              57.640%, 100% { left: 28px; }
     }
 
     .t20 {
       animation:
-        op20 189.98s linear infinite,
-        wd20 189.98s linear infinite;
+        op20 186.45s linear infinite,
+        wd20 186.45s linear infinite;
     }
     @keyframes op20 {
-      0%, 57.223% { opacity: 0; }
-              57.223% { opacity: 1; }
-              60.465% { opacity: 1; }
-              60.492% { opacity: 0; }
+      0%, 57.737% { opacity: 0; }
+              57.737% { opacity: 1; }
+              60.959% { opacity: 1; }
+              60.986% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd20 {
-      0%, 57.223% { width: 0; }
-              57.223% { width: 0; animation-timing-function: steps(60, end); }
-              58.739% { width: 60ch; animation-timing-function: linear; }
-              59.581% { width: 60ch; animation-timing-function: steps(60, end); }
-              60.465%, 100% { width: 0; }
+      0%, 57.737% { width: 0; }
+              57.737% { width: 0; animation-timing-function: steps(58, end); }
+              59.230% { width: 58ch; animation-timing-function: linear; }
+              60.088% { width: 58ch; animation-timing-function: steps(58, end); }
+              60.959%, 100% { width: 0; }
     }
     .cur.t20 {
       animation:
-        co20 189.98s linear infinite,
-        cr20 189.98s linear infinite,
+        co20 186.45s linear infinite,
+        cr20 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co20 {
-      0%, 57.223% { visibility: hidden; }
-              57.223% { visibility: visible; }
-              60.492% { visibility: hidden; }
+      0%, 57.737% { visibility: hidden; }
+              57.737% { visibility: visible; }
+              60.986% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr20 {
-      0%, 57.223% { left: 28px; }
-              57.223% { left: 28px; animation-timing-function: steps(60, end); }
-              58.739% { left: calc(28px + 60ch); animation-timing-function: linear; }
-              59.581% { left: calc(28px + 60ch); animation-timing-function: steps(60, end); }
-              60.465%, 100% { left: 28px; }
+      0%, 57.737% { left: 28px; }
+              57.737% { left: 28px; animation-timing-function: steps(58, end); }
+              59.230% { left: calc(28px + 58ch); animation-timing-function: linear; }
+              60.088% { left: calc(28px + 58ch); animation-timing-function: steps(58, end); }
+              60.959%, 100% { left: 28px; }
     }
 
     .t21 {
       animation:
-        op21 189.98s linear infinite,
-        wd21 189.98s linear infinite;
+        op21 186.45s linear infinite,
+        wd21 186.45s linear infinite;
     }
     @keyframes op21 {
-      0%, 60.560% { opacity: 0; }
-              60.560% { opacity: 1; }
-              63.202% { opacity: 1; }
-              63.229% { opacity: 0; }
+      0%, 61.056% { opacity: 0; }
+              61.056% { opacity: 1; }
+              64.523% { opacity: 1; }
+              64.550% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd21 {
-      0%, 60.560% { width: 0; }
-              60.560% { width: 0; animation-timing-function: steps(45, end); }
-              61.697% { width: 45ch; animation-timing-function: linear; }
-              62.539% { width: 45ch; animation-timing-function: steps(45, end); }
-              63.202%, 100% { width: 0; }
+      0%, 61.056% { width: 0; }
+              61.056% { width: 0; animation-timing-function: steps(64, end); }
+              62.703% { width: 64ch; animation-timing-function: linear; }
+              63.562% { width: 64ch; animation-timing-function: steps(64, end); }
+              64.523%, 100% { width: 0; }
     }
     .cur.t21 {
       animation:
-        co21 189.98s linear infinite,
-        cr21 189.98s linear infinite,
+        co21 186.45s linear infinite,
+        cr21 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co21 {
-      0%, 60.560% { visibility: hidden; }
-              60.560% { visibility: visible; }
-              63.229% { visibility: hidden; }
+      0%, 61.056% { visibility: hidden; }
+              61.056% { visibility: visible; }
+              64.550% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr21 {
-      0%, 60.560% { left: 28px; }
-              60.560% { left: 28px; animation-timing-function: steps(45, end); }
-              61.697% { left: calc(28px + 45ch); animation-timing-function: linear; }
-              62.539% { left: calc(28px + 45ch); animation-timing-function: steps(45, end); }
-              63.202%, 100% { left: 28px; }
+      0%, 61.056% { left: 28px; }
+              61.056% { left: 28px; animation-timing-function: steps(64, end); }
+              62.703% { left: calc(28px + 64ch); animation-timing-function: linear; }
+              63.562% { left: calc(28px + 64ch); animation-timing-function: steps(64, end); }
+              64.523%, 100% { left: 28px; }
     }
 
     .t22 {
       animation:
-        op22 189.98s linear infinite,
-        wd22 189.98s linear infinite;
+        op22 186.45s linear infinite,
+        wd22 186.45s linear infinite;
     }
     @keyframes op22 {
-      0%, 63.297% { opacity: 0; }
-              63.297% { opacity: 1; }
-              65.219% { opacity: 1; }
-              65.246% { opacity: 0; }
+      0%, 64.619% { opacity: 0; }
+              64.619% { opacity: 1; }
+              67.149% { opacity: 1; }
+              67.175% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd22 {
-      0%, 63.297% { width: 0; }
-              63.297% { width: 0; animation-timing-function: steps(27, end); }
-              63.979% { width: 27ch; animation-timing-function: linear; }
-              64.822% { width: 27ch; animation-timing-function: steps(27, end); }
-              65.219%, 100% { width: 0; }
+      0%, 64.619% { width: 0; }
+              64.619% { width: 0; animation-timing-function: steps(41, end); }
+              65.675% { width: 41ch; animation-timing-function: linear; }
+              66.533% { width: 41ch; animation-timing-function: steps(41, end); }
+              67.149%, 100% { width: 0; }
     }
     .cur.t22 {
       animation:
-        co22 189.98s linear infinite,
-        cr22 189.98s linear infinite,
+        co22 186.45s linear infinite,
+        cr22 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co22 {
-      0%, 63.297% { visibility: hidden; }
-              63.297% { visibility: visible; }
-              65.246% { visibility: hidden; }
+      0%, 64.619% { visibility: hidden; }
+              64.619% { visibility: visible; }
+              67.175% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr22 {
-      0%, 63.297% { left: 28px; }
-              63.297% { left: 28px; animation-timing-function: steps(27, end); }
-              63.979% { left: calc(28px + 27ch); animation-timing-function: linear; }
-              64.822% { left: calc(28px + 27ch); animation-timing-function: steps(27, end); }
-              65.219%, 100% { left: 28px; }
+      0%, 64.619% { left: 28px; }
+              64.619% { left: 28px; animation-timing-function: steps(41, end); }
+              65.675% { left: calc(28px + 41ch); animation-timing-function: linear; }
+              66.533% { left: calc(28px + 41ch); animation-timing-function: steps(41, end); }
+              67.149%, 100% { left: 28px; }
     }
 
     .t23 {
       animation:
-        op23 189.98s linear infinite,
-        wd23 189.98s linear infinite;
+        op23 186.45s linear infinite,
+        wd23 186.45s linear infinite;
     }
     @keyframes op23 {
-      0%, 65.314% { opacity: 0; }
-              65.314% { opacity: 1; }
-              67.117% { opacity: 1; }
-              67.143% { opacity: 0; }
+      0%, 67.245% { opacity: 0; }
+              67.245% { opacity: 1; }
+              70.060% { opacity: 1; }
+              70.087% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd23 {
-      0%, 65.314% { width: 0; }
-              65.314% { width: 0; animation-timing-function: steps(24, end); }
-              65.921% { width: 24ch; animation-timing-function: linear; }
-              66.763% { width: 24ch; animation-timing-function: steps(24, end); }
-              67.117%, 100% { width: 0; }
+      0%, 67.245% { width: 0; }
+              67.245% { width: 0; animation-timing-function: steps(48, end); }
+              68.481% { width: 48ch; animation-timing-function: linear; }
+              69.339% { width: 48ch; animation-timing-function: steps(48, end); }
+              70.060%, 100% { width: 0; }
     }
     .cur.t23 {
       animation:
-        co23 189.98s linear infinite,
-        cr23 189.98s linear infinite,
+        co23 186.45s linear infinite,
+        cr23 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co23 {
-      0%, 65.314% { visibility: hidden; }
-              65.314% { visibility: visible; }
-              67.143% { visibility: hidden; }
+      0%, 67.245% { visibility: hidden; }
+              67.245% { visibility: visible; }
+              70.087% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr23 {
-      0%, 65.314% { left: 28px; }
-              65.314% { left: 28px; animation-timing-function: steps(24, end); }
-              65.921% { left: calc(28px + 24ch); animation-timing-function: linear; }
-              66.763% { left: calc(28px + 24ch); animation-timing-function: steps(24, end); }
-              67.117%, 100% { left: 28px; }
+      0%, 67.245% { left: 28px; }
+              67.245% { left: 28px; animation-timing-function: steps(48, end); }
+              68.481% { left: calc(28px + 48ch); animation-timing-function: linear; }
+              69.339% { left: calc(28px + 48ch); animation-timing-function: steps(48, end); }
+              70.060%, 100% { left: 28px; }
     }
 
     .t24 {
       animation:
-        op24 189.98s linear infinite,
-        wd24 189.98s linear infinite;
+        op24 186.45s linear infinite,
+        wd24 186.45s linear infinite;
     }
     @keyframes op24 {
-      0%, 67.211% { opacity: 0; }
-              67.211% { opacity: 1; }
-              69.094% { opacity: 1; }
-              69.120% { opacity: 0; }
+      0%, 70.157% { opacity: 0; }
+              70.157% { opacity: 1; }
+              72.727% { opacity: 1; }
+              72.754% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd24 {
-      0%, 67.211% { width: 0; }
-              67.211% { width: 0; animation-timing-function: steps(26, end); }
-              67.868% { width: 26ch; animation-timing-function: linear; }
-              68.710% { width: 26ch; animation-timing-function: steps(26, end); }
-              69.094%, 100% { width: 0; }
+      0%, 70.157% { width: 0; }
+              70.157% { width: 0; animation-timing-function: steps(42, end); }
+              71.238% { width: 42ch; animation-timing-function: linear; }
+              72.096% { width: 42ch; animation-timing-function: steps(42, end); }
+              72.727%, 100% { width: 0; }
     }
     .cur.t24 {
       animation:
-        co24 189.98s linear infinite,
-        cr24 189.98s linear infinite,
+        co24 186.45s linear infinite,
+        cr24 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co24 {
-      0%, 67.211% { visibility: hidden; }
-              67.211% { visibility: visible; }
-              69.120% { visibility: hidden; }
+      0%, 70.157% { visibility: hidden; }
+              70.157% { visibility: visible; }
+              72.754% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr24 {
-      0%, 67.211% { left: 28px; }
-              67.211% { left: 28px; animation-timing-function: steps(26, end); }
-              67.868% { left: calc(28px + 26ch); animation-timing-function: linear; }
-              68.710% { left: calc(28px + 26ch); animation-timing-function: steps(26, end); }
-              69.094%, 100% { left: 28px; }
+      0%, 70.157% { left: 28px; }
+              70.157% { left: 28px; animation-timing-function: steps(42, end); }
+              71.238% { left: calc(28px + 42ch); animation-timing-function: linear; }
+              72.096% { left: calc(28px + 42ch); animation-timing-function: steps(42, end); }
+              72.727%, 100% { left: 28px; }
     }
 
     .t25 {
       animation:
-        op25 189.98s linear infinite,
-        wd25 189.98s linear infinite;
+        op25 186.45s linear infinite,
+        wd25 186.45s linear infinite;
     }
     @keyframes op25 {
-      0%, 69.188% { opacity: 0; }
-              69.188% { opacity: 1; }
-              72.351% { opacity: 1; }
-              72.377% { opacity: 0; }
+      0%, 72.823% { opacity: 0; }
+              72.823% { opacity: 1; }
+              75.760% { opacity: 1; }
+              75.787% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd25 {
-      0%, 69.188% { width: 0; }
-              69.188% { width: 0; animation-timing-function: steps(58, end); }
-              70.654% { width: 58ch; animation-timing-function: linear; }
-              71.496% { width: 58ch; animation-timing-function: steps(58, end); }
-              72.351%, 100% { width: 0; }
+      0%, 72.823% { width: 0; }
+              72.823% { width: 0; animation-timing-function: steps(51, end); }
+              74.136% { width: 51ch; animation-timing-function: linear; }
+              74.994% { width: 51ch; animation-timing-function: steps(51, end); }
+              75.760%, 100% { width: 0; }
     }
     .cur.t25 {
       animation:
-        co25 189.98s linear infinite,
-        cr25 189.98s linear infinite,
+        co25 186.45s linear infinite,
+        cr25 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co25 {
-      0%, 69.188% { visibility: hidden; }
-              69.188% { visibility: visible; }
-              72.377% { visibility: hidden; }
+      0%, 72.823% { visibility: hidden; }
+              72.823% { visibility: visible; }
+              75.787% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr25 {
-      0%, 69.188% { left: 28px; }
-              69.188% { left: 28px; animation-timing-function: steps(58, end); }
-              70.654% { left: calc(28px + 58ch); animation-timing-function: linear; }
-              71.496% { left: calc(28px + 58ch); animation-timing-function: steps(58, end); }
-              72.351%, 100% { left: 28px; }
+      0%, 72.823% { left: 28px; }
+              72.823% { left: 28px; animation-timing-function: steps(51, end); }
+              74.136% { left: calc(28px + 51ch); animation-timing-function: linear; }
+              74.994% { left: calc(28px + 51ch); animation-timing-function: steps(51, end); }
+              75.760%, 100% { left: 28px; }
     }
 
     .t26 {
       animation:
-        op26 189.98s linear infinite,
-        wd26 189.98s linear infinite;
+        op26 186.45s linear infinite,
+        wd26 186.45s linear infinite;
     }
     @keyframes op26 {
-      0%, 72.446% { opacity: 0; }
-              72.446% { opacity: 1; }
-              74.888% { opacity: 1; }
-              74.914% { opacity: 0; }
+      0%, 75.857% { opacity: 0; }
+              75.857% { opacity: 1; }
+              78.835% { opacity: 1; }
+              78.861% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd26 {
-      0%, 72.446% { width: 0; }
-              72.446% { width: 0; animation-timing-function: steps(40, end); }
-              73.456% { width: 40ch; animation-timing-function: linear; }
-              74.298% { width: 40ch; animation-timing-function: steps(40, end); }
-              74.888%, 100% { width: 0; }
+      0%, 75.857% { width: 0; }
+              75.857% { width: 0; animation-timing-function: steps(52, end); }
+              77.196% { width: 52ch; animation-timing-function: linear; }
+              78.054% { width: 52ch; animation-timing-function: steps(52, end); }
+              78.835%, 100% { width: 0; }
     }
     .cur.t26 {
       animation:
-        co26 189.98s linear infinite,
-        cr26 189.98s linear infinite,
+        co26 186.45s linear infinite,
+        cr26 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co26 {
-      0%, 72.446% { visibility: hidden; }
-              72.446% { visibility: visible; }
-              74.914% { visibility: hidden; }
+      0%, 75.857% { visibility: hidden; }
+              75.857% { visibility: visible; }
+              78.861% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr26 {
-      0%, 72.446% { left: 28px; }
-              72.446% { left: 28px; animation-timing-function: steps(40, end); }
-              73.456% { left: calc(28px + 40ch); animation-timing-function: linear; }
-              74.298% { left: calc(28px + 40ch); animation-timing-function: steps(40, end); }
-              74.888%, 100% { left: 28px; }
+      0%, 75.857% { left: 28px; }
+              75.857% { left: 28px; animation-timing-function: steps(52, end); }
+              77.196% { left: calc(28px + 52ch); animation-timing-function: linear; }
+              78.054% { left: calc(28px + 52ch); animation-timing-function: steps(52, end); }
+              78.835%, 100% { left: 28px; }
     }
 
     .t27 {
       animation:
-        op27 189.98s linear infinite,
-        wd27 189.98s linear infinite;
+        op27 186.45s linear infinite,
+        wd27 186.45s linear infinite;
     }
     @keyframes op27 {
-      0%, 74.983% { opacity: 0; }
-              74.983% { opacity: 1; }
-              77.465% { opacity: 1; }
-              77.491% { opacity: 0; }
+      0%, 78.931% { opacity: 0; }
+              78.931% { opacity: 1; }
+              81.542% { opacity: 1; }
+              81.569% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd27 {
-      0%, 74.983% { width: 0; }
-              74.983% { width: 0; animation-timing-function: steps(41, end); }
-              76.019% { width: 41ch; animation-timing-function: linear; }
-              76.861% { width: 41ch; animation-timing-function: steps(41, end); }
-              77.465%, 100% { width: 0; }
+      0%, 78.931% { width: 0; }
+              78.931% { width: 0; animation-timing-function: steps(43, end); }
+              80.038% { width: 43ch; animation-timing-function: linear; }
+              80.896% { width: 43ch; animation-timing-function: steps(43, end); }
+              81.542%, 100% { width: 0; }
     }
     .cur.t27 {
       animation:
-        co27 189.98s linear infinite,
-        cr27 189.98s linear infinite,
+        co27 186.45s linear infinite,
+        cr27 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co27 {
-      0%, 74.983% { visibility: hidden; }
-              74.983% { visibility: visible; }
-              77.491% { visibility: hidden; }
+      0%, 78.931% { visibility: hidden; }
+              78.931% { visibility: visible; }
+              81.569% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr27 {
-      0%, 74.983% { left: 28px; }
-              74.983% { left: 28px; animation-timing-function: steps(41, end); }
-              76.019% { left: calc(28px + 41ch); animation-timing-function: linear; }
-              76.861% { left: calc(28px + 41ch); animation-timing-function: steps(41, end); }
-              77.465%, 100% { left: 28px; }
+      0%, 78.931% { left: 28px; }
+              78.931% { left: 28px; animation-timing-function: steps(43, end); }
+              80.038% { left: calc(28px + 43ch); animation-timing-function: linear; }
+              80.896% { left: calc(28px + 43ch); animation-timing-function: steps(43, end); }
+              81.542%, 100% { left: 28px; }
     }
 
     .t28 {
       animation:
-        op28 189.98s linear infinite,
-        wd28 189.98s linear infinite;
+        op28 186.45s linear infinite,
+        wd28 186.45s linear infinite;
     }
     @keyframes op28 {
-      0%, 77.560% { opacity: 0; }
-              77.560% { opacity: 1; }
-              80.482% { opacity: 1; }
-              80.508% { opacity: 0; }
+      0%, 81.639% { opacity: 0; }
+              81.639% { opacity: 1; }
+              83.006% { opacity: 1; }
+              83.033% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd28 {
-      0%, 77.560% { width: 0; }
-              77.560% { width: 0; animation-timing-function: steps(52, end); }
-              78.874% { width: 52ch; animation-timing-function: linear; }
-              79.716% { width: 52ch; animation-timing-function: steps(52, end); }
-              80.482%, 100% { width: 0; }
+      0%, 81.639% { width: 0; }
+              81.639% { width: 0; animation-timing-function: steps(12, end); }
+              81.960% { width: 12ch; animation-timing-function: linear; }
+              82.819% { width: 12ch; animation-timing-function: steps(12, end); }
+              83.006%, 100% { width: 0; }
     }
     .cur.t28 {
       animation:
-        co28 189.98s linear infinite,
-        cr28 189.98s linear infinite,
+        co28 186.45s linear infinite,
+        cr28 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co28 {
-      0%, 77.560% { visibility: hidden; }
-              77.560% { visibility: visible; }
-              80.508% { visibility: hidden; }
+      0%, 81.639% { visibility: hidden; }
+              81.639% { visibility: visible; }
+              83.033% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr28 {
-      0%, 77.560% { left: 28px; }
-              77.560% { left: 28px; animation-timing-function: steps(52, end); }
-              78.874% { left: calc(28px + 52ch); animation-timing-function: linear; }
-              79.716% { left: calc(28px + 52ch); animation-timing-function: steps(52, end); }
-              80.482%, 100% { left: 28px; }
+      0%, 81.639% { left: 28px; }
+              81.639% { left: 28px; animation-timing-function: steps(12, end); }
+              81.960% { left: calc(28px + 12ch); animation-timing-function: linear; }
+              82.819% { left: calc(28px + 12ch); animation-timing-function: steps(12, end); }
+              83.006%, 100% { left: 28px; }
     }
 
     .t29 {
       animation:
-        op29 189.98s linear infinite,
-        wd29 189.98s linear infinite;
+        op29 186.45s linear infinite,
+        wd29 186.45s linear infinite;
     }
     @keyframes op29 {
-      0%, 80.577% { opacity: 0; }
-              80.577% { opacity: 1; }
-              83.819% { opacity: 1; }
-              83.846% { opacity: 0; }
+      0%, 83.103% { opacity: 0; }
+              83.103% { opacity: 1; }
+              85.306% { opacity: 1; }
+              85.333% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd29 {
-      0%, 80.577% { width: 0; }
-              80.577% { width: 0; animation-timing-function: steps(60, end); }
-              82.093% { width: 60ch; animation-timing-function: linear; }
-              82.935% { width: 60ch; animation-timing-function: steps(60, end); }
-              83.819%, 100% { width: 0; }
+      0%, 83.103% { width: 0; }
+              83.103% { width: 0; animation-timing-function: steps(33, end); }
+              83.952% { width: 33ch; animation-timing-function: linear; }
+              84.811% { width: 33ch; animation-timing-function: steps(33, end); }
+              85.306%, 100% { width: 0; }
     }
     .cur.t29 {
       animation:
-        co29 189.98s linear infinite,
-        cr29 189.98s linear infinite,
+        co29 186.45s linear infinite,
+        cr29 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co29 {
-      0%, 80.577% { visibility: hidden; }
-              80.577% { visibility: visible; }
-              83.846% { visibility: hidden; }
+      0%, 83.103% { visibility: hidden; }
+              83.103% { visibility: visible; }
+              85.333% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr29 {
-      0%, 80.577% { left: 28px; }
-              80.577% { left: 28px; animation-timing-function: steps(60, end); }
-              82.093% { left: calc(28px + 60ch); animation-timing-function: linear; }
-              82.935% { left: calc(28px + 60ch); animation-timing-function: steps(60, end); }
-              83.819%, 100% { left: 28px; }
+      0%, 83.103% { left: 28px; }
+              83.103% { left: 28px; animation-timing-function: steps(33, end); }
+              83.952% { left: calc(28px + 33ch); animation-timing-function: linear; }
+              84.811% { left: calc(28px + 33ch); animation-timing-function: steps(33, end); }
+              85.306%, 100% { left: 28px; }
     }
 
     .t30 {
       animation:
-        op30 189.98s linear infinite,
-        wd30 189.98s linear infinite;
+        op30 186.45s linear infinite,
+        wd30 186.45s linear infinite;
     }
     @keyframes op30 {
-      0%, 83.914% { opacity: 0; }
-              83.914% { opacity: 1; }
-              86.877% { opacity: 1; }
-              86.903% { opacity: 0; }
+      0%, 85.403% { opacity: 0; }
+              85.403% { opacity: 1; }
+              88.747% { opacity: 1; }
+              88.774% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd30 {
-      0%, 83.914% { width: 0; }
-              83.914% { width: 0; animation-timing-function: steps(53, end); }
-              85.253% { width: 53ch; animation-timing-function: linear; }
-              86.095% { width: 53ch; animation-timing-function: steps(53, end); }
-              86.877%, 100% { width: 0; }
+      0%, 85.403% { width: 0; }
+              85.403% { width: 0; animation-timing-function: steps(61, end); }
+              86.973% { width: 61ch; animation-timing-function: linear; }
+              87.831% { width: 61ch; animation-timing-function: steps(61, end); }
+              88.747%, 100% { width: 0; }
     }
     .cur.t30 {
       animation:
-        co30 189.98s linear infinite,
-        cr30 189.98s linear infinite,
+        co30 186.45s linear infinite,
+        cr30 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co30 {
-      0%, 83.914% { visibility: hidden; }
-              83.914% { visibility: visible; }
-              86.903% { visibility: hidden; }
+      0%, 85.403% { visibility: hidden; }
+              85.403% { visibility: visible; }
+              88.774% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr30 {
-      0%, 83.914% { left: 28px; }
-              83.914% { left: 28px; animation-timing-function: steps(53, end); }
-              85.253% { left: calc(28px + 53ch); animation-timing-function: linear; }
-              86.095% { left: calc(28px + 53ch); animation-timing-function: steps(53, end); }
-              86.877%, 100% { left: 28px; }
+      0%, 85.403% { left: 28px; }
+              85.403% { left: 28px; animation-timing-function: steps(61, end); }
+              86.973% { left: calc(28px + 61ch); animation-timing-function: linear; }
+              87.831% { left: calc(28px + 61ch); animation-timing-function: steps(61, end); }
+              88.747%, 100% { left: 28px; }
     }
 
     .t31 {
       animation:
-        op31 189.98s linear infinite,
-        wd31 189.98s linear infinite;
+        op31 186.45s linear infinite,
+        wd31 186.45s linear infinite;
     }
     @keyframes op31 {
-      0%, 86.971% { opacity: 0; }
-              86.971% { opacity: 1; }
-              89.974% { opacity: 1; }
-              90.000% { opacity: 0; }
+      0%, 88.844% { opacity: 0; }
+              88.844% { opacity: 1; }
+              91.740% { opacity: 1; }
+              91.767% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd31 {
-      0%, 86.971% { width: 0; }
-              86.971% { width: 0; animation-timing-function: steps(54, end); }
-              88.336% { width: 54ch; animation-timing-function: linear; }
-              89.178% { width: 54ch; animation-timing-function: steps(54, end); }
-              89.974%, 100% { width: 0; }
+      0%, 88.844% { width: 0; }
+              88.844% { width: 0; animation-timing-function: steps(50, end); }
+              90.131% { width: 50ch; animation-timing-function: linear; }
+              90.989% { width: 50ch; animation-timing-function: steps(50, end); }
+              91.740%, 100% { width: 0; }
     }
     .cur.t31 {
       animation:
-        co31 189.98s linear infinite,
-        cr31 189.98s linear infinite,
+        co31 186.45s linear infinite,
+        cr31 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co31 {
-      0%, 86.971% { visibility: hidden; }
-              86.971% { visibility: visible; }
-              90.000% { visibility: hidden; }
+      0%, 88.844% { visibility: hidden; }
+              88.844% { visibility: visible; }
+              91.767% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr31 {
-      0%, 86.971% { left: 28px; }
-              86.971% { left: 28px; animation-timing-function: steps(54, end); }
-              88.336% { left: calc(28px + 54ch); animation-timing-function: linear; }
-              89.178% { left: calc(28px + 54ch); animation-timing-function: steps(54, end); }
-              89.974%, 100% { left: 28px; }
+      0%, 88.844% { left: 28px; }
+              88.844% { left: 28px; animation-timing-function: steps(50, end); }
+              90.131% { left: calc(28px + 50ch); animation-timing-function: linear; }
+              90.989% { left: calc(28px + 50ch); animation-timing-function: steps(50, end); }
+              91.740%, 100% { left: 28px; }
     }
 
     .t32 {
       animation:
-        op32 189.98s linear infinite,
-        wd32 189.98s linear infinite;
+        op32 186.45s linear infinite,
+        wd32 186.45s linear infinite;
     }
     @keyframes op32 {
-      0%, 90.068% { opacity: 0; }
-              90.068% { opacity: 1; }
-              92.751% { opacity: 1; }
-              92.777% { opacity: 0; }
+      0%, 91.837% { opacity: 0; }
+              91.837% { opacity: 1; }
+              94.081% { opacity: 1; }
+              94.108% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd32 {
-      0%, 90.068% { width: 0; }
-              90.068% { width: 0; animation-timing-function: steps(46, end); }
-              91.231% { width: 46ch; animation-timing-function: linear; }
-              92.073% { width: 46ch; animation-timing-function: steps(46, end); }
-              92.751%, 100% { width: 0; }
+      0%, 91.837% { width: 0; }
+              91.837% { width: 0; animation-timing-function: steps(34, end); }
+              92.712% { width: 34ch; animation-timing-function: linear; }
+              93.570% { width: 34ch; animation-timing-function: steps(34, end); }
+              94.081%, 100% { width: 0; }
     }
     .cur.t32 {
       animation:
-        co32 189.98s linear infinite,
-        cr32 189.98s linear infinite,
+        co32 186.45s linear infinite,
+        cr32 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co32 {
-      0%, 90.068% { visibility: hidden; }
-              90.068% { visibility: visible; }
-              92.777% { visibility: hidden; }
+      0%, 91.837% { visibility: hidden; }
+              91.837% { visibility: visible; }
+              94.108% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr32 {
-      0%, 90.068% { left: 28px; }
-              90.068% { left: 28px; animation-timing-function: steps(46, end); }
-              91.231% { left: calc(28px + 46ch); animation-timing-function: linear; }
-              92.073% { left: calc(28px + 46ch); animation-timing-function: steps(46, end); }
-              92.751%, 100% { left: 28px; }
+      0%, 91.837% { left: 28px; }
+              91.837% { left: 28px; animation-timing-function: steps(34, end); }
+              92.712% { left: calc(28px + 34ch); animation-timing-function: linear; }
+              93.570% { left: calc(28px + 34ch); animation-timing-function: steps(34, end); }
+              94.081%, 100% { left: 28px; }
     }
 
     .t33 {
       animation:
-        op33 189.98s linear infinite,
-        wd33 189.98s linear infinite;
+        op33 186.45s linear infinite,
+        wd33 186.45s linear infinite;
     }
     @keyframes op33 {
-      0%, 92.846% { opacity: 0; }
-              92.846% { opacity: 1; }
-              95.808% { opacity: 1; }
-              95.834% { opacity: 0; }
+      0%, 94.177% { opacity: 0; }
+              94.177% { opacity: 1; }
+              97.400% { opacity: 1; }
+              97.427% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd33 {
-      0%, 92.846% { width: 0; }
-              92.846% { width: 0; animation-timing-function: steps(53, end); }
-              94.185% { width: 53ch; animation-timing-function: linear; }
-              95.027% { width: 53ch; animation-timing-function: steps(53, end); }
-              95.808%, 100% { width: 0; }
+      0%, 94.177% { width: 0; }
+              94.177% { width: 0; animation-timing-function: steps(58, end); }
+              95.671% { width: 58ch; animation-timing-function: linear; }
+              96.529% { width: 58ch; animation-timing-function: steps(58, end); }
+              97.400%, 100% { width: 0; }
     }
     .cur.t33 {
       animation:
-        co33 189.98s linear infinite,
-        cr33 189.98s linear infinite,
+        co33 186.45s linear infinite,
+        cr33 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co33 {
-      0%, 92.846% { visibility: hidden; }
-              92.846% { visibility: visible; }
-              95.834% { visibility: hidden; }
+      0%, 94.177% { visibility: hidden; }
+              94.177% { visibility: visible; }
+              97.427% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr33 {
-      0%, 92.846% { left: 28px; }
-              92.846% { left: 28px; animation-timing-function: steps(53, end); }
-              94.185% { left: calc(28px + 53ch); animation-timing-function: linear; }
-              95.027% { left: calc(28px + 53ch); animation-timing-function: steps(53, end); }
-              95.808%, 100% { left: 28px; }
+      0%, 94.177% { left: 28px; }
+              94.177% { left: 28px; animation-timing-function: steps(58, end); }
+              95.671% { left: calc(28px + 58ch); animation-timing-function: linear; }
+              96.529% { left: calc(28px + 58ch); animation-timing-function: steps(58, end); }
+              97.400%, 100% { left: 28px; }
     }
 
     .t34 {
       animation:
-        op34 189.98s linear infinite,
-        wd34 189.98s linear infinite;
+        op34 186.45s linear infinite,
+        wd34 186.45s linear infinite;
     }
     @keyframes op34 {
-      0%, 95.903% { opacity: 0; }
-              95.903% { opacity: 1; }
-              99.905% { opacity: 1; }
-              99.932% { opacity: 0; }
+      0%, 97.496% { opacity: 0; }
+              97.496% { opacity: 1; }
+              99.903% { opacity: 1; }
+              99.930% { opacity: 0; }
       100%     { opacity: 0; }
     }
     @keyframes wd34 {
-      0%, 95.903% { width: 0; }
-              95.903% { width: 0; animation-timing-function: steps(79, end); }
-              97.899% { width: 79ch; animation-timing-function: linear; }
-              98.741% { width: 79ch; animation-timing-function: steps(79, end); }
-              99.905%, 100% { width: 0; }
+      0%, 97.496% { width: 0; }
+              97.496% { width: 0; animation-timing-function: steps(38, end); }
+              98.475% { width: 38ch; animation-timing-function: linear; }
+              99.333% { width: 38ch; animation-timing-function: steps(38, end); }
+              99.903%, 100% { width: 0; }
     }
     .cur.t34 {
       animation:
-        co34 189.98s linear infinite,
-        cr34 189.98s linear infinite,
+        co34 186.45s linear infinite,
+        cr34 186.45s linear infinite,
         bl 0.75s step-end infinite;
     }
     @keyframes co34 {
-      0%, 95.903% { visibility: hidden; }
-              95.903% { visibility: visible; }
-              99.932% { visibility: hidden; }
+      0%, 97.496% { visibility: hidden; }
+              97.496% { visibility: visible; }
+              99.930% { visibility: hidden; }
       100%     { visibility: hidden; }
     }
     @keyframes cr34 {
-      0%, 95.903% { left: 28px; }
-              95.903% { left: 28px; animation-timing-function: steps(79, end); }
-              97.899% { left: calc(28px + 79ch); animation-timing-function: linear; }
-              98.741% { left: calc(28px + 79ch); animation-timing-function: steps(79, end); }
-              99.905%, 100% { left: 28px; }
+      0%, 97.496% { left: 28px; }
+              97.496% { left: 28px; animation-timing-function: steps(38, end); }
+              98.475% { left: calc(28px + 38ch); animation-timing-function: linear; }
+              99.333% { left: calc(28px + 38ch); animation-timing-function: steps(38, end); }
+              99.903%, 100% { left: 28px; }
     }
       </style>
-      <span class="txt t0">home lab is getting out of hand. good.</span>
-      <span class="txt t1">yes, those are different overlays. yes, i made them myself.</span>
-      <span class="txt t2">streams are live. overlays are custom. send help.</span>
-      <span class="txt t3">sometimes i read the datasheet twice</span>
-      <span class="txt t4">my media server notifies me via webhook. i built the webhook handler.</span>
-      <span class="txt t5">i spent hours on OBS overlays i never go live with</span>
-      <span class="txt t6">every project starts with a folder and a dream</span>
-      <span class="txt t7">happiest when there's solder in the air</span>
-      <span class="txt t8">still learning. always building.</span>
-      <span class="txt t9">if something annoyed me once, i'll fix it so it never does again</span>
-      <span class="txt t10">good tools make people faster. i try to build good tools.</span>
+      <span class="txt t0">it compiles. mostly.</span>
+      <span class="txt t1">built a full streaming setup. purely for vibes.</span>
+      <span class="txt t2">the readme is longer than the actual project</span>
+      <span class="txt t3">if there's a PCB and a problem i'll be happy for weeks</span>
+      <span class="txt t4">scope creep is a feature</span>
+      <span class="txt t5">it was supposed to be a weekend project</span>
+      <span class="txt t6">yes, those are different overlays. yes, i made them myself.</span>
+      <span class="txt t7">good tools make people faster. i try to build good tools.</span>
+      <span class="txt t8">my dad wanted to control the hot tub on his phone. so i built it.</span>
+      <span class="txt t9">i test things. sometimes before shipping.</span>
+      <span class="txt t10">i like when things work reliably. so i make them work reliably.</span>
       <span class="txt t11">i name my variables well. at least i think so.</span>
-      <span class="txt t12">custom animated OBS scenes. for an audience of zero.</span>
-      <span class="txt t13">one button on my stream deck deploys crewvolution to prod</span>
-      <span class="txt t14">the readme is longer than the actual project</span>
-      <span class="txt t15">i like when things work reliably. so i make them work reliably.</span>
-      <span class="txt t16">i don't stop because i'm done. i stop because i'm tired.</span>
-      <span class="txt t17">it was supposed to be a weekend project</span>
-      <span class="txt t18">i read the datasheet. all of it.</span>
-      <span class="txt t19">built in NRW, shipped to the world</span>
-      <span class="txt t20">started as a gaming fair volunteer. built a product instead.</span>
-      <span class="txt t21">yes it has a web portal. no i don't know why.</span>
-      <span class="txt t22">the LED blinks. we ship it.</span>
-      <span class="txt t23">scope creep is a feature</span>
-      <span class="txt t24">the PCB is fine. probably.</span>
-      <span class="txt t25">powered by curiosity and too much coffee and energy drinks</span>
-      <span class="txt t26">C++ in the morning. TypeScript at night.</span>
-      <span class="txt t27">got tired of spreadsheets at gaming fairs</span>
-      <span class="txt t28">works on my machine. also works on the server. rare.</span>
-      <span class="txt t29">i have more projects than hours in the day. working on both.</span>
-      <span class="txt t30">i built a stream deck plugin that deploys my own SaaS</span>
-      <span class="txt t31">if there's a PCB and a problem i'll be happy for weeks</span>
-      <span class="txt t32">the first version was worse. that's the point.</span>
-      <span class="txt t33">i once built a pool controller. my dad still uses it.</span>
-      <span class="txt t34">i have different OBS scenes for coding, electronics, and gaming. i dont stream.</span>
+      <span class="txt t12">i built a dev dashboard because i didn't like my other dev dashboards</span>
+      <span class="txt t13">closed laptop. opened it again. just one more thing.</span>
+      <span class="txt t14">sonarr told me a file arrived. i automated what happened next.</span>
+      <span class="txt t15">i just wanted to check the bus times</span>
+      <span class="txt t16">wanted to check departures. ended up writing a captive portal.</span>
+      <span class="txt t17">maker. engineer. whatever it takes.</span>
+      <span class="txt t18">open hardware should be for everyone</span>
+      <span class="txt t19">if it's broken, i'm already fixing it</span>
+      <span class="txt t20">yes, i control my 3d printer through a custom AI assistant</span>
+      <span class="txt t21">just wanted a cleaner install process. built a protocol handler.</span>
+      <span class="txt t22">documentation: written, occasionally read</span>
+      <span class="txt t23">once saw a problem at an event. now it's a SaaS.</span>
+      <span class="txt t24">i write docs because future-me is grateful</span>
+      <span class="txt t25">the kind of guy who adds a web portal to a keychain</span>
+      <span class="txt t26">works on my machine. also works on the server. rare.</span>
+      <span class="txt t27">i speak microcontroller and server fluently</span>
+      <span class="txt t28">ships things</span>
+      <span class="txt t29">building the tools i wish existed</span>
+      <span class="txt t30">powered by energy drinks and a concerning amount of open tabs</span>
+      <span class="txt t31">embedded + full-stack + whatever the project needs</span>
+      <span class="txt t32">built in NRW, shipped to the world</span>
+      <span class="txt t33">powered by curiosity and too much coffee and energy drinks</span>
+      <span class="txt t34">i think about edge cases in the shower</span>
       <div class="cur t0"></div>
       <div class="cur t1"></div>
       <div class="cur t2"></div>
