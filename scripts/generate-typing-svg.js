@@ -14,6 +14,7 @@ const TYPE_SPEED   = 0.048;   // per character while typing
 const DELETE_SPEED = 0.028;   // per character while deleting
 const HOLD         = 1.6;     // how long to sit on a completed line
 const GAP          = 0.18;    // pause between lines
+const BLINK        = 0.9;     // cursor blink period
 
 // visual
 const SVG_WIDTH  = 800;
@@ -21,7 +22,7 @@ const SVG_HEIGHT = 52;
 const FONT       = "'Fira Code', 'Courier New', monospace";
 const FONT_SIZE  = 15;
 const COLOR      = '#7289da';
-const CURSOR_W   = 1.5;       // px, number not string
+const CURSOR_W   = 2;         // px
 const PAD_LEFT   = 28;
 
 
@@ -66,126 +67,92 @@ const lines = shuffle(allLines).slice(0, Math.min(PICK, allLines.length));
 
 // --- build timeline ---------------------------------------------------------
 
-let cursor = 0;
+let clock = 0;
 const slots = lines.map(line => {
-  const chars    = line.length;
+  // count code points, not UTF-16 units, so umlauts etc. match the ch width
+  const chars    = [...line].length;
   const typeTime = Math.max(chars * TYPE_SPEED, 0.6);
   const delTime  = Math.max(chars * DELETE_SPEED, 0.35);
-  const start    = cursor;
-  cursor += typeTime + HOLD + delTime + GAP;
+  const start    = clock;
+  clock += typeTime + HOLD + delTime + GAP;
   return { line, chars, start, typeTime, delTime };
 });
 
-const TOTAL = cursor;
+const TOTAL = clock;
+const DUR   = TOTAL.toFixed(3) + 's';
 
 
-// --- build per-line CSS -----------------------------------------------------
+// --- per-line CSS -----------------------------------------------------------
 //
-// Text spans: opacity + width only, no border.
-// Cursor: a separate absolutely-positioned div animated via its own keyframes.
+// One element per line. The cursor is the span's own right border, so it
+// always sits exactly at the end of the visible text. No second element,
+// no position math that can drift.
 //
-// Cursor animations per line:
-//   cr{i}  — left position (tracks end of typed text)
-//   co{i}  — opacity (hidden outside active window)
-// Shared:
-//   bl     — blink (opacity 1→0→1 at 0.75s)
+//   op{i}  visibility of the whole line (hard on/off, no fading)
+//   wd{i}  width in ch, stepped per character for typing and deleting
+//   bl     shared blink on the border color
 
 const perLineCSS = slots.map(({ chars, start, typeTime, delTime }, i) => {
-  const a = pct(start,                                    TOTAL);
-  const b = pct(start + typeTime,                         TOTAL);
-  const c = pct(start + typeTime + HOLD,                  TOTAL);
-  const d = pct(start + typeTime + HOLD + delTime,        TOTAL);
-  const e = pct(start + typeTime + HOLD + delTime + 0.05, TOTAL);
-
-  const dur = TOTAL.toFixed(2) + 's';
-
-  // cursor left: starts at PAD_LEFT, moves to PAD_LEFT + chars*ch at b,
-  // stays there through hold, then tracks back to PAD_LEFT at d.
-  // We express left as PAD_LEFT + N*ch using calc().
-  const leftStart = `${PAD_LEFT}px`;
-  const leftFull  = `calc(${PAD_LEFT}px + ${chars}ch)`;
+  const a = pct(start,                             TOTAL);
+  const b = pct(start + typeTime,                  TOTAL);
+  const c = pct(start + typeTime + HOLD,           TOTAL);
+  const d = pct(start + typeTime + HOLD + delTime, TOTAL);
 
   return `
     .t${i} {
       animation:
-        op${i} ${dur} linear infinite,
-        wd${i} ${dur} linear infinite;
+        op${i} ${DUR} step-end infinite,
+        wd${i} ${DUR} linear infinite,
+        bl ${BLINK}s step-end infinite;
     }
     @keyframes op${i} {
-      0%, ${a} { opacity: 0; }
-              ${a} { opacity: 1; }
-              ${d} { opacity: 1; }
-              ${e} { opacity: 0; }
-      100%     { opacity: 0; }
+      0%   { opacity: 0; }
+      ${a} { opacity: 1; }
+      ${d} { opacity: 0; }
+      100% { opacity: 0; }
     }
     @keyframes wd${i} {
-      0%, ${a} { width: 0; }
-              ${a} { width: 0; animation-timing-function: steps(${chars}, end); }
-              ${b} { width: ${chars}ch; animation-timing-function: linear; }
-              ${c} { width: ${chars}ch; animation-timing-function: steps(${chars}, end); }
-              ${d}, 100% { width: 0; }
-    }
-    .cur.t${i} {
-      animation:
-        co${i} ${dur} linear infinite,
-        cr${i} ${dur} linear infinite,
-        bl 0.75s step-end infinite;
-    }
-    @keyframes co${i} {
-      0%, ${a} { visibility: hidden; }
-              ${a} { visibility: visible; }
-              ${e} { visibility: hidden; }
-      100%     { visibility: hidden; }
-    }
-    @keyframes cr${i} {
-      0%, ${a} { left: ${leftStart}; }
-              ${a} { left: ${leftStart}; animation-timing-function: steps(${chars}, end); }
-              ${b} { left: ${leftFull}; animation-timing-function: linear; }
-              ${c} { left: ${leftFull}; animation-timing-function: steps(${chars}, end); }
-              ${d}, 100% { left: ${leftStart}; }
+      0%   { width: 0; }
+      ${a} { width: 0;          animation-timing-function: steps(${chars}, end); }
+      ${b} { width: ${chars}ch; animation-timing-function: linear; }
+      ${c} { width: ${chars}ch; animation-timing-function: steps(${chars}, end); }
+      ${d} { width: 0; }
+      100% { width: 0; }
     }`;
 }).join('\n');
 
 
 // --- assemble SVG -----------------------------------------------------------
 
-const spanHeight = Math.round(FONT_SIZE * 1.4);
+const lineHeight = Math.round(FONT_SIZE * 1.4);
 
 const baseCSS = `
     .txt {
       position: absolute;
       left: ${PAD_LEFT}px;
-      top: 50%;
-      transform: translateY(-50%);
-      height: ${spanHeight}px;
-      line-height: ${spanHeight}px;
+      top: ${Math.round((SVG_HEIGHT - lineHeight) / 2)}px;
+      height: ${lineHeight}px;
+      line-height: ${lineHeight}px;
       font-family: ${FONT};
       font-size: ${FONT_SIZE}px;
+      font-variant-ligatures: none;
       color: ${COLOR};
-      white-space: nowrap;
+      white-space: pre;
       overflow: hidden;
+      box-sizing: content-box;
+      padding-right: 1px;
+      border-right: ${CURSOR_W}px solid ${COLOR};
+      width: 0;
       opacity: 0;
     }
-    .cur {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      width: ${CURSOR_W}px;
-      height: ${spanHeight}px;
-      background: ${COLOR};
-      visibility: hidden;
-    }
     @keyframes bl {
-      0%, 100% { opacity: 1; }
-      50%      { opacity: 0; }
+      0%   { border-right-color: ${COLOR}; }
+      50%  { border-right-color: transparent; }
+      100% { border-right-color: ${COLOR}; }
     }`;
 
 const textSpans = slots
-  .map(({ line }, i) => `      <span class="txt t${i}">${escapeHtml(line)}</span>`)
-  .join('\n');
-
-const cursorDivs = slots
-  .map((_, i) => `      <div class="cur t${i}"></div>`)
+  .map(({ line }, i) => `      <div class="txt t${i}">${escapeHtml(line)}</div>`)
   .join('\n');
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${SVG_WIDTH}" height="${SVG_HEIGHT}" viewBox="0 0 ${SVG_WIDTH} ${SVG_HEIGHT}">
@@ -195,7 +162,6 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${SVG_WIDTH}" height
       <style>${baseCSS}${perLineCSS}
       </style>
 ${textSpans}
-${cursorDivs}
     </div>
   </foreignObject>
 </svg>`;
